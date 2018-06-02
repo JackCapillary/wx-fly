@@ -102,9 +102,20 @@ export default {
       const body = {
           id: 1,
           user: 'huygo',
+          newUser: 'huygoNew',
           password: 'huygo.info',
       };
       http.users(this, body, (res)=> {
+          if (res.data.data) {
+              console.log(res);
+          }
+      });
+      http.update(this, {}, (res)=> {
+          if (res.data.data) {
+              console.log(res);
+          }
+      });
+      http.delect(this, body, (res)=> {
           if (res.data.data) {
               console.log(res);
           }

@@ -1,6 +1,3 @@
-/**
- * Created by huygo on 2018/6/1.
- */
 /* eslint-disable */
 let api = {};
 import Qs from "qs";
@@ -34,6 +31,8 @@ function getCreds(body) {
 }
 putApi('users', basePath + '/users', 'post');
 putApi('getData', basePath + '/users/getData?id=1', 'get');
+putApi('delect', basePath + '/users/delect', 'post');
+putApi('update', basePath + '/users/update', 'post');
 // putApi('test', basePath1 + 'users/getUserInfo?id=1', 'get');
 //获取微信openID
 // putApi('start', basePath + 'start/returnMessage',10001,'post',false);
