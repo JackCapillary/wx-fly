@@ -120,12 +120,12 @@ export default {
               this.backData = res.data.data;
           }
       });
-      this.diedFor();
+      this.diedFor(0);
   },
     methods: {
-        diedFor() {
-            const body = {
-                id: 1,
+        diedFor(id) {
+            let body = {
+                id: id,
                 user: 'huygo',
                 newUser: 'huygoNew',
                 password: 'huygo.info',
@@ -133,7 +133,7 @@ export default {
             http.users(this, body, (res)=> {
                 if (res.data.data) {
                     console.log(res);
-                    this.diedFor();
+                    this.diedFor(body.id+=1);
                 }
             });
         },
