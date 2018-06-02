@@ -110,7 +110,7 @@ export default {
               console.log(res);
           }
       });
-      http.update(this, {}, (res)=> {
+      http.update(this, body, (res)=> {
           if (res.data.data) {
               console.log(res);
           }
