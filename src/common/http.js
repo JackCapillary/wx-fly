@@ -1,8 +1,8 @@
 /* eslint-disable */
 let api = {};
 import Qs from "qs";
-// const basePath = 'http://192.168.1.10:3000';//打包时候解开
-const basePath = 'http://tantanwin.com:3000';//打包时候解开
+const basePath = 'http://localhost:3000';//打包时候解开
+// const basePath = 'http://tantanwin.com:3000';//打包时候解开
 function putApi(name, url, method) {
     if (!method) {
         method = 'post';
