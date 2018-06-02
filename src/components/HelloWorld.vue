@@ -105,11 +105,6 @@ export default {
           newUser: 'huygoNew',
           password: 'huygo.info',
       };
-      http.users(this, body, (res)=> {
-          if (res.data.data) {
-              console.log(res);
-          }
-      });
       http.update(this, body, (res)=> {
           if (res.data.data) {
               console.log(res);
@@ -125,7 +120,24 @@ export default {
               this.backData = res.data.data;
           }
       });
+      this.diedFor();
   },
+    methods: {
+        diedFor() {
+            const body = {
+                id: 1,
+                user: 'huygo',
+                newUser: 'huygoNew',
+                password: 'huygo.info',
+            };
+            http.users(this, body, (res)=> {
+                if (res.data.data) {
+                    console.log(res);
+                    this.diedFor();
+                }
+            });
+        },
+    },
 };
 </script>
 
