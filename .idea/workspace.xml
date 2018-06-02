@@ -2,1312 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="62a81d2c-c255-4b70-bf72-b531024cdfc7" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/vcs.xml" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/.bin/eslint" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/acorn-jsx/LICENSE" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/acorn-jsx/README.md" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/acorn-jsx/index.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/acorn-jsx/inject.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/acorn-jsx/node_modules/.bin/acorn" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/acorn-jsx/node_modules/acorn/.editorconfig" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/acorn-jsx/node_modules/acorn/.gitattributes" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/acorn-jsx/node_modules/acorn/.npmignore" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/acorn-jsx/node_modules/acorn/.tern-project" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/acorn-jsx/node_modules/acorn/.travis.yml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/acorn-jsx/node_modules/acorn/AUTHORS" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/acorn-jsx/node_modules/acorn/CHANGELOG.md" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/acorn-jsx/node_modules/acorn/LICENSE" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/acorn-jsx/node_modules/acorn/README.md" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/acorn-jsx/node_modules/acorn/bin/acorn" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/acorn-jsx/node_modules/acorn/bin/generate-identifier-regex.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/acorn-jsx/node_modules/acorn/bin/update_authors.sh" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/acorn-jsx/node_modules/acorn/dist/.keep" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/acorn-jsx/node_modules/acorn/dist/acorn.es.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/acorn-jsx/node_modules/acorn/dist/acorn.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/acorn-jsx/node_modules/acorn/dist/acorn_loose.es.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/acorn-jsx/node_modules/acorn/dist/acorn_loose.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/acorn-jsx/node_modules/acorn/dist/walk.es.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/acorn-jsx/node_modules/acorn/dist/walk.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/acorn-jsx/node_modules/acorn/package.json" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/acorn-jsx/node_modules/acorn/rollup/config.bin.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/acorn-jsx/node_modules/acorn/rollup/config.loose.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/acorn-jsx/node_modules/acorn/rollup/config.main.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/acorn-jsx/node_modules/acorn/rollup/config.walk.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/acorn-jsx/node_modules/acorn/src/bin/acorn.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/acorn-jsx/node_modules/acorn/src/expression.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/acorn-jsx/node_modules/acorn/src/identifier.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/acorn-jsx/node_modules/acorn/src/index.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/acorn-jsx/node_modules/acorn/src/location.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/acorn-jsx/node_modules/acorn/src/locutil.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/acorn-jsx/node_modules/acorn/src/loose/expression.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/acorn-jsx/node_modules/acorn/src/loose/index.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/acorn-jsx/node_modules/acorn/src/loose/parseutil.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/acorn-jsx/node_modules/acorn/src/loose/state.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/acorn-jsx/node_modules/acorn/src/loose/statement.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/acorn-jsx/node_modules/acorn/src/loose/tokenize.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/acorn-jsx/node_modules/acorn/src/lval.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/acorn-jsx/node_modules/acorn/src/node.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/acorn-jsx/node_modules/acorn/src/options.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/acorn-jsx/node_modules/acorn/src/parseutil.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/acorn-jsx/node_modules/acorn/src/state.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/acorn-jsx/node_modules/acorn/src/statement.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/acorn-jsx/node_modules/acorn/src/tokencontext.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/acorn-jsx/node_modules/acorn/src/tokenize.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/acorn-jsx/node_modules/acorn/src/tokentype.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/acorn-jsx/node_modules/acorn/src/util.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/acorn-jsx/node_modules/acorn/src/walk/index.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/acorn-jsx/node_modules/acorn/src/whitespace.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/acorn-jsx/package.json" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/acorn-jsx/xhtml.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/ajv-keywords/LICENSE" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/ajv-keywords/README.md" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/ajv-keywords/index.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/ajv-keywords/keywords/_formatLimit.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/ajv-keywords/keywords/_util.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/ajv-keywords/keywords/deepProperties.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/ajv-keywords/keywords/deepRequired.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/ajv-keywords/keywords/dot/_formatLimit.jst" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/ajv-keywords/keywords/dot/patternRequired.jst" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/ajv-keywords/keywords/dot/switch.jst" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/ajv-keywords/keywords/dotjs/README.md" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/ajv-keywords/keywords/dotjs/_formatLimit.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/ajv-keywords/keywords/dotjs/patternRequired.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/ajv-keywords/keywords/dotjs/switch.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/ajv-keywords/keywords/dynamicDefaults.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/ajv-keywords/keywords/formatMaximum.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/ajv-keywords/keywords/formatMinimum.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/ajv-keywords/keywords/if.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/ajv-keywords/keywords/index.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/ajv-keywords/keywords/instanceof.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/ajv-keywords/keywords/patternRequired.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/ajv-keywords/keywords/prohibited.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/ajv-keywords/keywords/range.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/ajv-keywords/keywords/regexp.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/ajv-keywords/keywords/select.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/ajv-keywords/keywords/switch.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/ajv-keywords/keywords/typeof.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/ajv-keywords/keywords/uniqueItemProperties.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/ajv-keywords/package.json" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/ansi-escapes/index.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/ansi-escapes/license" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/ansi-escapes/package.json" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/ansi-escapes/readme.md" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/array-find/.npmignore" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/array-find/.travis.yml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/array-find/LICENSE" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/array-find/README.md" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/array-find/find.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/array-find/package.json" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/array-find/test.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/caller-path/index.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/caller-path/package.json" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/caller-path/readme.md" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/callsites/index.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/callsites/package.json" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/callsites/readme.md" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/chardet/.npmignore" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/chardet/.travis.yml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/chardet/LICENSE" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/chardet/README.md" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/chardet/encoding/iso2022.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/chardet/encoding/mbcs.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/chardet/encoding/sbcs.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/chardet/encoding/unicode.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/chardet/encoding/utf8.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/chardet/index.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/chardet/match.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/chardet/package.json" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/chardet/yarn.lock" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/circular-json/.npmignore" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/circular-json/LICENSE.txt" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/circular-json/README.md" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/circular-json/build/circular-json.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/circular-json/build/circular-json.max.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/circular-json/build/circular-json.node.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/circular-json/package.json" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/circular-json/template/license.after" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/circular-json/template/license.before" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/cli-width/.npmignore" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/cli-width/.travis.yml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/cli-width/CHANGELOG.md" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/cli-width/LICENSE" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/cli-width/README.md" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/cli-width/index.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/cli-width/package.json" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/coalescy/.idea/.name" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/coalescy/.idea/coalescy.iml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/coalescy/.idea/compiler.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/coalescy/.idea/encodings.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/coalescy/.idea/jsLibraryMappings.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/coalescy/.idea/libraries/jasmine.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/coalescy/.idea/misc.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/coalescy/.idea/modules.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/coalescy/.idea/scopes/scope_settings.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/coalescy/.idea/vcs.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/coalescy/.idea/workspace.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/coalescy/.npmignore" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/coalescy/LICENSE" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/coalescy/README.md" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/coalescy/index.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/coalescy/package.json" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/coalescy/specs/coalescy.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/contains-path/LICENSE" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/contains-path/README.md" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/contains-path/index.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/contains-path/package.json" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/deep-is/.npmignore" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/deep-is/.travis.yml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/deep-is/LICENSE" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/deep-is/README.markdown" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/deep-is/example/cmp.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/deep-is/index.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/deep-is/package.json" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/deep-is/test/NaN.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/deep-is/test/cmp.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/deep-is/test/neg-vs-pos-0.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/del/index.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/del/license" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/del/node_modules/globby/index.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/del/node_modules/globby/license" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/del/node_modules/globby/package.json" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/del/node_modules/globby/readme.md" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/del/node_modules/pify/index.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/del/node_modules/pify/license" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/del/node_modules/pify/package.json" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/del/node_modules/pify/readme.md" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/del/package.json" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/del/readme.md" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/doctrine/CHANGELOG.md" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/doctrine/LICENSE" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/doctrine/LICENSE.closure-compiler" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/doctrine/LICENSE.esprima" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/doctrine/README.md" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/doctrine/lib/doctrine.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/doctrine/lib/typed.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/doctrine/lib/utility.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/doctrine/package.json" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/enhanced-resolve/README.md" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/enhanced-resolve/lib/CachedInputFileSystem.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/enhanced-resolve/lib/DirectoryDefaultFilePlugin.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/enhanced-resolve/lib/DirectoryDescriptionFileFieldAliasPlugin.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/enhanced-resolve/lib/DirectoryDescriptionFilePlugin.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/enhanced-resolve/lib/DirectoryResultPlugin.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/enhanced-resolve/lib/FileAppendPlugin.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/enhanced-resolve/lib/ModuleAliasPlugin.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/enhanced-resolve/lib/ModuleAsDirectoryPlugin.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/enhanced-resolve/lib/ModuleAsFilePlugin.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/enhanced-resolve/lib/ModuleTemplatesPlugin.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/enhanced-resolve/lib/ModulesInDirectoriesPlugin.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/enhanced-resolve/lib/ModulesInRootPlugin.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/enhanced-resolve/lib/NodeJsInputFileSystem.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/enhanced-resolve/lib/Resolver.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/enhanced-resolve/lib/ResultSymlinkPlugin.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/enhanced-resolve/lib/SyncNodeJsInputFileSystem.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/enhanced-resolve/lib/UnsafeCachePlugin.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/enhanced-resolve/lib/createInnerCallback.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/enhanced-resolve/lib/node.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/enhanced-resolve/lib/popPathSeqment.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/enhanced-resolve/package.json" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/eslint-config-airbnb-base/.babelrc" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/eslint-config-airbnb-base/.eslintrc" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/eslint-config-airbnb-base/CHANGELOG.md" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/eslint-config-airbnb-base/README.md" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/eslint-config-airbnb-base/index.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/eslint-config-airbnb-base/legacy.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/eslint-config-airbnb-base/package.json" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/eslint-config-airbnb-base/rules/best-practices.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/eslint-config-airbnb-base/rules/errors.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/eslint-config-airbnb-base/rules/es6.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/eslint-config-airbnb-base/rules/imports.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/eslint-config-airbnb-base/rules/node.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/eslint-config-airbnb-base/rules/strict.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/eslint-config-airbnb-base/rules/style.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/eslint-config-airbnb-base/rules/variables.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/eslint-config-airbnb-base/test/.eslintrc" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/eslint-config-airbnb-base/test/test-base.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/eslint-friendly-formatter/LICENSE" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/eslint-friendly-formatter/README.md" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/eslint-friendly-formatter/changelog.md" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/eslint-friendly-formatter/index.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/eslint-friendly-formatter/node_modules/ansi-styles/index.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/eslint-friendly-formatter/node_modules/ansi-styles/license" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/eslint-friendly-formatter/node_modules/ansi-styles/package.json" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/eslint-friendly-formatter/node_modules/ansi-styles/readme.md" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/eslint-friendly-formatter/node_modules/chalk/index.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/eslint-friendly-formatter/node_modules/chalk/license" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/eslint-friendly-formatter/node_modules/chalk/package.json" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/eslint-friendly-formatter/node_modules/chalk/readme.md" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/eslint-friendly-formatter/node_modules/minimist/.travis.yml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/eslint-friendly-formatter/node_modules/minimist/LICENSE" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/eslint-friendly-formatter/node_modules/minimist/example/parse.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/eslint-friendly-formatter/node_modules/minimist/index.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/eslint-friendly-formatter/node_modules/minimist/package.json" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/eslint-friendly-formatter/node_modules/minimist/readme.markdown" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/eslint-friendly-formatter/node_modules/minimist/test/all_bool.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/eslint-friendly-formatter/node_modules/minimist/test/bool.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/eslint-friendly-formatter/node_modules/minimist/test/dash.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/eslint-friendly-formatter/node_modules/minimist/test/default_bool.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/eslint-friendly-formatter/node_modules/minimist/test/dotted.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/eslint-friendly-formatter/node_modules/minimist/test/kv_short.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/eslint-friendly-formatter/node_modules/minimist/test/long.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/eslint-friendly-formatter/node_modules/minimist/test/num.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/eslint-friendly-formatter/node_modules/minimist/test/parse.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/eslint-friendly-formatter/node_modules/minimist/test/parse_modified.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/eslint-friendly-formatter/node_modules/minimist/test/short.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/eslint-friendly-formatter/node_modules/minimist/test/stop_early.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/eslint-friendly-formatter/node_modules/minimist/test/unknown.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/eslint-friendly-formatter/node_modules/minimist/test/whitespace.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/eslint-friendly-formatter/node_modules/supports-color/index.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/eslint-friendly-formatter/node_modules/supports-color/license" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/eslint-friendly-formatter/node_modules/supports-color/package.json" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/eslint-friendly-formatter/node_modules/supports-color/readme.md" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/eslint-friendly-formatter/package.json" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/eslint-friendly-formatter/process.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/eslint-import-resolver-node/CHANGELOG.md" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/eslint-import-resolver-node/README.md" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/eslint-import-resolver-node/index.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/eslint-import-resolver-node/package.json" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/eslint-import-resolver-webpack/CHANGELOG.md" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/eslint-import-resolver-webpack/README.md" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/eslint-import-resolver-webpack/config.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/eslint-import-resolver-webpack/index.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/eslint-import-resolver-webpack/package.json" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/eslint-loader/CHANGELOG.md" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/eslint-loader/LICENSE" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/eslint-loader/README.md" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/eslint-loader/index.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/eslint-loader/package.json" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/eslint-module-utils/CHANGELOG.md" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/eslint-module-utils/ModuleCache.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/eslint-module-utils/declaredScope.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/eslint-module-utils/hash.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/eslint-module-utils/ignore.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/eslint-module-utils/module-require.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/eslint-module-utils/moduleVisitor.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/eslint-module-utils/node_modules/find-up/index.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/eslint-module-utils/node_modules/find-up/license" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/eslint-module-utils/node_modules/find-up/package.json" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/eslint-module-utils/node_modules/find-up/readme.md" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/eslint-module-utils/node_modules/path-exists/index.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/eslint-module-utils/node_modules/path-exists/license" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/eslint-module-utils/node_modules/path-exists/package.json" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/eslint-module-utils/node_modules/path-exists/readme.md" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/eslint-module-utils/node_modules/pkg-dir/index.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/eslint-module-utils/node_modules/pkg-dir/license" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/eslint-module-utils/node_modules/pkg-dir/package.json" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/eslint-module-utils/node_modules/pkg-dir/readme.md" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/eslint-module-utils/package-lock.json" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/eslint-module-utils/package.json" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/eslint-module-utils/parse.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/eslint-module-utils/resolve.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/eslint-module-utils/unambiguous.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/eslint-plugin-import/CHANGELOG.md" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/eslint-plugin-import/LICENSE" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/eslint-plugin-import/README.md" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/eslint-plugin-import/config/electron.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/eslint-plugin-import/config/errors.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/eslint-plugin-import/config/react-native.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/eslint-plugin-import/config/react.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/eslint-plugin-import/config/recommended.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/eslint-plugin-import/config/stage-0.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/eslint-plugin-import/config/warnings.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/eslint-plugin-import/lib/ExportMap.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/eslint-plugin-import/lib/core/importType.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/eslint-plugin-import/lib/core/staticRequire.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/eslint-plugin-import/lib/docsUrl.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/eslint-plugin-import/lib/importDeclaration.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/eslint-plugin-import/lib/index.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/eslint-plugin-import/lib/rules/default.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/eslint-plugin-import/lib/rules/export.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/eslint-plugin-import/lib/rules/exports-last.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/eslint-plugin-import/lib/rules/extensions.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/eslint-plugin-import/lib/rules/first.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/eslint-plugin-import/lib/rules/group-exports.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/eslint-plugin-import/lib/rules/imports-first.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/eslint-plugin-import/lib/rules/max-dependencies.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/eslint-plugin-import/lib/rules/named.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/eslint-plugin-import/lib/rules/namespace.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/eslint-plugin-import/lib/rules/newline-after-import.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/eslint-plugin-import/lib/rules/no-absolute-path.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/eslint-plugin-import/lib/rules/no-amd.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/eslint-plugin-import/lib/rules/no-anonymous-default-export.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/eslint-plugin-import/lib/rules/no-commonjs.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/eslint-plugin-import/lib/rules/no-cycle.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/eslint-plugin-import/lib/rules/no-default-export.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/eslint-plugin-import/lib/rules/no-deprecated.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/eslint-plugin-import/lib/rules/no-duplicates.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/eslint-plugin-import/lib/rules/no-dynamic-require.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/eslint-plugin-import/lib/rules/no-extraneous-dependencies.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/eslint-plugin-import/lib/rules/no-internal-modules.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/eslint-plugin-import/lib/rules/no-mutable-exports.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/eslint-plugin-import/lib/rules/no-named-as-default-member.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/eslint-plugin-import/lib/rules/no-named-as-default.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/eslint-plugin-import/lib/rules/no-named-default.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/eslint-plugin-import/lib/rules/no-namespace.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/eslint-plugin-import/lib/rules/no-nodejs-modules.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/eslint-plugin-import/lib/rules/no-restricted-paths.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/eslint-plugin-import/lib/rules/no-self-import.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/eslint-plugin-import/lib/rules/no-unassigned-import.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/eslint-plugin-import/lib/rules/no-unresolved.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/eslint-plugin-import/lib/rules/no-useless-path-segments.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/eslint-plugin-import/lib/rules/no-webpack-loader-syntax.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/eslint-plugin-import/lib/rules/order.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/eslint-plugin-import/lib/rules/prefer-default-export.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/eslint-plugin-import/lib/rules/unambiguous.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/eslint-plugin-import/memo-parser/README.md" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/eslint-plugin-import/memo-parser/index.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/eslint-plugin-import/memo-parser/package-lock.json" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/eslint-plugin-import/memo-parser/package.json" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/eslint-plugin-import/node_modules/doctrine/CHANGELOG.md" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/eslint-plugin-import/node_modules/doctrine/LICENSE.BSD" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/eslint-plugin-import/node_modules/doctrine/LICENSE.closure-compiler" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/eslint-plugin-import/node_modules/doctrine/LICENSE.esprima" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/eslint-plugin-import/node_modules/doctrine/README.md" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/eslint-plugin-import/node_modules/doctrine/lib/doctrine.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/eslint-plugin-import/node_modules/doctrine/lib/typed.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/eslint-plugin-import/node_modules/doctrine/lib/utility.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/eslint-plugin-import/node_modules/doctrine/package.json" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/eslint-plugin-import/package.json" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/eslint-plugin-vue/LICENSE" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/eslint-plugin-vue/README.md" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/eslint-plugin-vue/lib/configs/base.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/eslint-plugin-vue/lib/configs/essential.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/eslint-plugin-vue/lib/configs/recommended.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/eslint-plugin-vue/lib/configs/strongly-recommended.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/eslint-plugin-vue/lib/index.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/eslint-plugin-vue/lib/processor.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/eslint-plugin-vue/lib/rules/attribute-hyphenation.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/eslint-plugin-vue/lib/rules/attributes-order.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/eslint-plugin-vue/lib/rules/comment-directive.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/eslint-plugin-vue/lib/rules/html-closing-bracket-newline.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/eslint-plugin-vue/lib/rules/html-closing-bracket-spacing.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/eslint-plugin-vue/lib/rules/html-end-tags.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/eslint-plugin-vue/lib/rules/html-indent.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/eslint-plugin-vue/lib/rules/html-quotes.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/eslint-plugin-vue/lib/rules/html-self-closing.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/eslint-plugin-vue/lib/rules/jsx-uses-vars.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/eslint-plugin-vue/lib/rules/max-attributes-per-line.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/eslint-plugin-vue/lib/rules/mustache-interpolation-spacing.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/eslint-plugin-vue/lib/rules/name-property-casing.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/eslint-plugin-vue/lib/rules/no-async-in-computed-properties.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/eslint-plugin-vue/lib/rules/no-confusing-v-for-v-if.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/eslint-plugin-vue/lib/rules/no-dupe-keys.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/eslint-plugin-vue/lib/rules/no-duplicate-attributes.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/eslint-plugin-vue/lib/rules/no-multi-spaces.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/eslint-plugin-vue/lib/rules/no-parsing-error.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/eslint-plugin-vue/lib/rules/no-reserved-keys.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/eslint-plugin-vue/lib/rules/no-shared-component-data.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/eslint-plugin-vue/lib/rules/no-side-effects-in-computed-properties.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/eslint-plugin-vue/lib/rules/no-template-key.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/eslint-plugin-vue/lib/rules/no-textarea-mustache.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/eslint-plugin-vue/lib/rules/no-unused-vars.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/eslint-plugin-vue/lib/rules/order-in-components.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/eslint-plugin-vue/lib/rules/prop-name-casing.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/eslint-plugin-vue/lib/rules/require-component-is.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/eslint-plugin-vue/lib/rules/require-default-prop.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/eslint-plugin-vue/lib/rules/require-prop-types.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/eslint-plugin-vue/lib/rules/require-render-return.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/eslint-plugin-vue/lib/rules/require-v-for-key.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/eslint-plugin-vue/lib/rules/require-valid-default-prop.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/eslint-plugin-vue/lib/rules/return-in-computed-property.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/eslint-plugin-vue/lib/rules/script-indent.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/eslint-plugin-vue/lib/rules/this-in-template.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/eslint-plugin-vue/lib/rules/v-bind-style.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/eslint-plugin-vue/lib/rules/v-on-style.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/eslint-plugin-vue/lib/rules/valid-template-root.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/eslint-plugin-vue/lib/rules/valid-v-bind.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/eslint-plugin-vue/lib/rules/valid-v-cloak.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/eslint-plugin-vue/lib/rules/valid-v-else-if.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/eslint-plugin-vue/lib/rules/valid-v-else.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/eslint-plugin-vue/lib/rules/valid-v-for.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/eslint-plugin-vue/lib/rules/valid-v-html.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/eslint-plugin-vue/lib/rules/valid-v-if.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/eslint-plugin-vue/lib/rules/valid-v-model.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/eslint-plugin-vue/lib/rules/valid-v-on.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/eslint-plugin-vue/lib/rules/valid-v-once.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/eslint-plugin-vue/lib/rules/valid-v-pre.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/eslint-plugin-vue/lib/rules/valid-v-show.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/eslint-plugin-vue/lib/rules/valid-v-text.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/eslint-plugin-vue/lib/utils/casing.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/eslint-plugin-vue/lib/utils/html-elements.json" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/eslint-plugin-vue/lib/utils/indent-common.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/eslint-plugin-vue/lib/utils/index.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/eslint-plugin-vue/lib/utils/js-reserved.json" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/eslint-plugin-vue/lib/utils/void-elements.json" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/eslint-plugin-vue/lib/utils/vue-reserved.json" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/eslint-plugin-vue/package.json" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/eslint-restricted-globals/README.md" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/eslint-restricted-globals/index.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/eslint-restricted-globals/package.json" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/eslint/CHANGELOG.md" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/eslint/LICENSE" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/eslint/README.md" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/eslint/bin/eslint.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/eslint/conf/blank-script.json" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/eslint/conf/category-list.json" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/eslint/conf/config-schema.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/eslint/conf/default-cli-options.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/eslint/conf/environments.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/eslint/conf/eslint-all.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/eslint/conf/eslint-recommended.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/eslint/conf/replacements.json" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/eslint/lib/api.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/eslint/lib/ast-utils.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/eslint/lib/cli-engine.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/eslint/lib/cli.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/eslint/lib/code-path-analysis/code-path-analyzer.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/eslint/lib/code-path-analysis/code-path-segment.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/eslint/lib/code-path-analysis/code-path-state.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/eslint/lib/code-path-analysis/code-path.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/eslint/lib/code-path-analysis/debug-helpers.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/eslint/lib/code-path-analysis/fork-context.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/eslint/lib/code-path-analysis/id-generator.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/eslint/lib/config.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/eslint/lib/config/autoconfig.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/eslint/lib/config/config-cache.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/eslint/lib/config/config-file.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/eslint/lib/config/config-initializer.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/eslint/lib/config/config-ops.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/eslint/lib/config/config-rule.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/eslint/lib/config/config-validator.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/eslint/lib/config/environments.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/eslint/lib/config/plugins.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/eslint/lib/file-finder.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/eslint/lib/formatters/checkstyle.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/eslint/lib/formatters/codeframe.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/eslint/lib/formatters/compact.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/eslint/lib/formatters/html-template-message.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/eslint/lib/formatters/html-template-page.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/eslint/lib/formatters/html-template-result.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/eslint/lib/formatters/html.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/eslint/lib/formatters/jslint-xml.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/eslint/lib/formatters/json.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/eslint/lib/formatters/junit.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/eslint/lib/formatters/stylish.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/eslint/lib/formatters/table.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/eslint/lib/formatters/tap.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/eslint/lib/formatters/unix.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/eslint/lib/formatters/visualstudio.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/eslint/lib/ignored-paths.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/eslint/lib/linter.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/eslint/lib/load-rules.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/eslint/lib/logging.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/eslint/lib/options.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/eslint/lib/report-translator.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/eslint/lib/rules.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/eslint/lib/rules/.eslintrc.yml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/eslint/lib/rules/accessor-pairs.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/eslint/lib/rules/array-bracket-newline.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/eslint/lib/rules/array-bracket-spacing.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/eslint/lib/rules/array-callback-return.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/eslint/lib/rules/array-element-newline.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/eslint/lib/rules/arrow-body-style.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/eslint/lib/rules/arrow-parens.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/eslint/lib/rules/arrow-spacing.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/eslint/lib/rules/block-scoped-var.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/eslint/lib/rules/block-spacing.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/eslint/lib/rules/brace-style.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/eslint/lib/rules/callback-return.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/eslint/lib/rules/camelcase.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/eslint/lib/rules/capitalized-comments.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/eslint/lib/rules/class-methods-use-this.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/eslint/lib/rules/comma-dangle.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/eslint/lib/rules/comma-spacing.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/eslint/lib/rules/comma-style.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/eslint/lib/rules/complexity.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/eslint/lib/rules/computed-property-spacing.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/eslint/lib/rules/consistent-return.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/eslint/lib/rules/consistent-this.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/eslint/lib/rules/constructor-super.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/eslint/lib/rules/curly.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/eslint/lib/rules/default-case.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/eslint/lib/rules/dot-location.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/eslint/lib/rules/dot-notation.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/eslint/lib/rules/eol-last.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/eslint/lib/rules/eqeqeq.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/eslint/lib/rules/for-direction.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/eslint/lib/rules/func-call-spacing.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/eslint/lib/rules/func-name-matching.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/eslint/lib/rules/func-names.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/eslint/lib/rules/func-style.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/eslint/lib/rules/function-paren-newline.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/eslint/lib/rules/generator-star-spacing.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/eslint/lib/rules/getter-return.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/eslint/lib/rules/global-require.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/eslint/lib/rules/guard-for-in.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/eslint/lib/rules/handle-callback-err.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/eslint/lib/rules/id-blacklist.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/eslint/lib/rules/id-length.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/eslint/lib/rules/id-match.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/eslint/lib/rules/implicit-arrow-linebreak.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/eslint/lib/rules/indent-legacy.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/eslint/lib/rules/indent.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/eslint/lib/rules/init-declarations.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/eslint/lib/rules/jsx-quotes.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/eslint/lib/rules/key-spacing.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/eslint/lib/rules/keyword-spacing.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/eslint/lib/rules/line-comment-position.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/eslint/lib/rules/linebreak-style.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/eslint/lib/rules/lines-around-comment.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/eslint/lib/rules/lines-around-directive.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/eslint/lib/rules/lines-between-class-members.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/eslint/lib/rules/max-depth.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/eslint/lib/rules/max-len.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/eslint/lib/rules/max-lines.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/eslint/lib/rules/max-nested-callbacks.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/eslint/lib/rules/max-params.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/eslint/lib/rules/max-statements-per-line.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/eslint/lib/rules/max-statements.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/eslint/lib/rules/multiline-comment-style.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/eslint/lib/rules/multiline-ternary.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/eslint/lib/rules/new-cap.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/eslint/lib/rules/new-parens.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/eslint/lib/rules/newline-after-var.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/eslint/lib/rules/newline-before-return.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/eslint/lib/rules/newline-per-chained-call.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/eslint/lib/rules/no-alert.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/eslint/lib/rules/no-array-constructor.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/eslint/lib/rules/no-await-in-loop.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/eslint/lib/rules/no-bitwise.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/eslint/lib/rules/no-buffer-constructor.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/eslint/lib/rules/no-caller.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/eslint/lib/rules/no-case-declarations.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/eslint/lib/rules/no-catch-shadow.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/eslint/lib/rules/no-class-assign.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/eslint/lib/rules/no-compare-neg-zero.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/eslint/lib/rules/no-cond-assign.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/eslint/lib/rules/no-confusing-arrow.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/eslint/lib/rules/no-console.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/eslint/lib/rules/no-const-assign.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/eslint/lib/rules/no-constant-condition.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/eslint/lib/rules/no-continue.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/eslint/lib/rules/no-control-regex.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/eslint/lib/rules/no-debugger.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/eslint/lib/rules/no-delete-var.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/eslint/lib/rules/no-div-regex.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/eslint/lib/rules/no-dupe-args.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/eslint/lib/rules/no-dupe-class-members.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/eslint/lib/rules/no-dupe-keys.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/eslint/lib/rules/no-duplicate-case.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/eslint/lib/rules/no-duplicate-imports.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/eslint/lib/rules/no-else-return.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/eslint/lib/rules/no-empty-character-class.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/eslint/lib/rules/no-empty-function.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/eslint/lib/rules/no-empty-pattern.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/eslint/lib/rules/no-empty.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/eslint/lib/rules/no-eq-null.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/eslint/lib/rules/no-eval.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/eslint/lib/rules/no-ex-assign.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/eslint/lib/rules/no-extend-native.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/eslint/lib/rules/no-extra-bind.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/eslint/lib/rules/no-extra-boolean-cast.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/eslint/lib/rules/no-extra-label.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/eslint/lib/rules/no-extra-parens.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/eslint/lib/rules/no-extra-semi.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/eslint/lib/rules/no-fallthrough.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/eslint/lib/rules/no-floating-decimal.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/eslint/lib/rules/no-func-assign.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/eslint/lib/rules/no-global-assign.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/eslint/lib/rules/no-implicit-coercion.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/eslint/lib/rules/no-implicit-globals.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/eslint/lib/rules/no-implied-eval.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/eslint/lib/rules/no-inline-comments.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/eslint/lib/rules/no-inner-declarations.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/eslint/lib/rules/no-invalid-regexp.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/eslint/lib/rules/no-invalid-this.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/eslint/lib/rules/no-irregular-whitespace.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/eslint/lib/rules/no-iterator.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/eslint/lib/rules/no-label-var.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/eslint/lib/rules/no-labels.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/eslint/lib/rules/no-lone-blocks.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/eslint/lib/rules/no-lonely-if.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/eslint/lib/rules/no-loop-func.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/eslint/lib/rules/no-magic-numbers.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/eslint/lib/rules/no-mixed-operators.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/eslint/lib/rules/no-mixed-requires.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/eslint/lib/rules/no-mixed-spaces-and-tabs.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/eslint/lib/rules/no-multi-assign.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/eslint/lib/rules/no-multi-spaces.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/eslint/lib/rules/no-multi-str.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/eslint/lib/rules/no-multiple-empty-lines.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/eslint/lib/rules/no-native-reassign.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/eslint/lib/rules/no-negated-condition.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/eslint/lib/rules/no-negated-in-lhs.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/eslint/lib/rules/no-nested-ternary.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/eslint/lib/rules/no-new-func.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/eslint/lib/rules/no-new-object.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/eslint/lib/rules/no-new-require.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/eslint/lib/rules/no-new-symbol.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/eslint/lib/rules/no-new-wrappers.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/eslint/lib/rules/no-new.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/eslint/lib/rules/no-obj-calls.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/eslint/lib/rules/no-octal-escape.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/eslint/lib/rules/no-octal.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/eslint/lib/rules/no-param-reassign.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/eslint/lib/rules/no-path-concat.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/eslint/lib/rules/no-plusplus.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/eslint/lib/rules/no-process-env.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/eslint/lib/rules/no-process-exit.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/eslint/lib/rules/no-proto.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/eslint/lib/rules/no-prototype-builtins.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/eslint/lib/rules/no-redeclare.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/eslint/lib/rules/no-regex-spaces.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/eslint/lib/rules/no-restricted-globals.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/eslint/lib/rules/no-restricted-imports.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/eslint/lib/rules/no-restricted-modules.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/eslint/lib/rules/no-restricted-properties.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/eslint/lib/rules/no-restricted-syntax.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/eslint/lib/rules/no-return-assign.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/eslint/lib/rules/no-return-await.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/eslint/lib/rules/no-script-url.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/eslint/lib/rules/no-self-assign.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/eslint/lib/rules/no-self-compare.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/eslint/lib/rules/no-sequences.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/eslint/lib/rules/no-shadow-restricted-names.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/eslint/lib/rules/no-shadow.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/eslint/lib/rules/no-spaced-func.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/eslint/lib/rules/no-sparse-arrays.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/eslint/lib/rules/no-sync.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/eslint/lib/rules/no-tabs.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/eslint/lib/rules/no-template-curly-in-string.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/eslint/lib/rules/no-ternary.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/eslint/lib/rules/no-this-before-super.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/eslint/lib/rules/no-throw-literal.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/eslint/lib/rules/no-trailing-spaces.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/eslint/lib/rules/no-undef-init.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/eslint/lib/rules/no-undef.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/eslint/lib/rules/no-undefined.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/eslint/lib/rules/no-underscore-dangle.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/eslint/lib/rules/no-unexpected-multiline.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/eslint/lib/rules/no-unmodified-loop-condition.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/eslint/lib/rules/no-unneeded-ternary.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/eslint/lib/rules/no-unreachable.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/eslint/lib/rules/no-unsafe-finally.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/eslint/lib/rules/no-unsafe-negation.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/eslint/lib/rules/no-unused-expressions.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/eslint/lib/rules/no-unused-labels.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/eslint/lib/rules/no-unused-vars.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/eslint/lib/rules/no-use-before-define.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/eslint/lib/rules/no-useless-call.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/eslint/lib/rules/no-useless-computed-key.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/eslint/lib/rules/no-useless-concat.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/eslint/lib/rules/no-useless-constructor.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/eslint/lib/rules/no-useless-escape.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/eslint/lib/rules/no-useless-rename.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/eslint/lib/rules/no-useless-return.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/eslint/lib/rules/no-var.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/eslint/lib/rules/no-void.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/eslint/lib/rules/no-warning-comments.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/eslint/lib/rules/no-whitespace-before-property.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/eslint/lib/rules/no-with.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/eslint/lib/rules/nonblock-statement-body-position.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/eslint/lib/rules/object-curly-newline.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/eslint/lib/rules/object-curly-spacing.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/eslint/lib/rules/object-property-newline.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/eslint/lib/rules/object-shorthand.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/eslint/lib/rules/one-var-declaration-per-line.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/eslint/lib/rules/one-var.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/eslint/lib/rules/operator-assignment.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/eslint/lib/rules/operator-linebreak.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/eslint/lib/rules/padded-blocks.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/eslint/lib/rules/padding-line-between-statements.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/eslint/lib/rules/prefer-arrow-callback.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/eslint/lib/rules/prefer-const.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/eslint/lib/rules/prefer-destructuring.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/eslint/lib/rules/prefer-numeric-literals.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/eslint/lib/rules/prefer-promise-reject-errors.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/eslint/lib/rules/prefer-reflect.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/eslint/lib/rules/prefer-rest-params.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/eslint/lib/rules/prefer-spread.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/eslint/lib/rules/prefer-template.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/eslint/lib/rules/quote-props.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/eslint/lib/rules/quotes.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/eslint/lib/rules/radix.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/eslint/lib/rules/require-await.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/eslint/lib/rules/require-jsdoc.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/eslint/lib/rules/require-yield.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/eslint/lib/rules/rest-spread-spacing.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/eslint/lib/rules/semi-spacing.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/eslint/lib/rules/semi-style.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/eslint/lib/rules/semi.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/eslint/lib/rules/sort-imports.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/eslint/lib/rules/sort-keys.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/eslint/lib/rules/sort-vars.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/eslint/lib/rules/space-before-blocks.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/eslint/lib/rules/space-before-function-paren.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/eslint/lib/rules/space-in-parens.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/eslint/lib/rules/space-infix-ops.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/eslint/lib/rules/space-unary-ops.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/eslint/lib/rules/spaced-comment.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/eslint/lib/rules/strict.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/eslint/lib/rules/switch-colon-spacing.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/eslint/lib/rules/symbol-description.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/eslint/lib/rules/template-curly-spacing.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/eslint/lib/rules/template-tag-spacing.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/eslint/lib/rules/unicode-bom.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/eslint/lib/rules/use-isnan.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/eslint/lib/rules/valid-jsdoc.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/eslint/lib/rules/valid-typeof.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/eslint/lib/rules/vars-on-top.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/eslint/lib/rules/wrap-iife.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/eslint/lib/rules/wrap-regex.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/eslint/lib/rules/yield-star-spacing.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/eslint/lib/rules/yoda.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/eslint/lib/testers/rule-tester.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/eslint/lib/timing.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/eslint/lib/token-store/backward-token-comment-cursor.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/eslint/lib/token-store/backward-token-cursor.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/eslint/lib/token-store/cursor.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/eslint/lib/token-store/cursors.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/eslint/lib/token-store/decorative-cursor.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/eslint/lib/token-store/filter-cursor.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/eslint/lib/token-store/forward-token-comment-cursor.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/eslint/lib/token-store/forward-token-cursor.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/eslint/lib/token-store/index.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/eslint/lib/token-store/limit-cursor.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/eslint/lib/token-store/padded-token-cursor.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/eslint/lib/token-store/skip-cursor.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/eslint/lib/token-store/utils.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/eslint/lib/util/ajv.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/eslint/lib/util/apply-disable-directives.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/eslint/lib/util/fix-tracker.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/eslint/lib/util/glob-util.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/eslint/lib/util/glob.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/eslint/lib/util/hash.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/eslint/lib/util/interpolate.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/eslint/lib/util/keywords.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/eslint/lib/util/module-resolver.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/eslint/lib/util/naming.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/eslint/lib/util/node-event-generator.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/eslint/lib/util/npm-util.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/eslint/lib/util/path-util.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/eslint/lib/util/patterns/letters.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/eslint/lib/util/rule-fixer.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/eslint/lib/util/safe-emitter.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/eslint/lib/util/source-code-fixer.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/eslint/lib/util/source-code-util.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/eslint/lib/util/source-code.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/eslint/lib/util/traverser.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/eslint/lib/util/xml-escape.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/eslint/messages/extend-config-missing.txt" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/eslint/messages/no-config-found.txt" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/eslint/messages/plugin-missing.txt" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/eslint/messages/whitespace-found.txt" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/eslint/node_modules/.bin/esparse" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/eslint/node_modules/.bin/esvalidate" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/eslint/node_modules/.bin/js-yaml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/eslint/node_modules/ansi-regex/index.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/eslint/node_modules/ansi-regex/license" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/eslint/node_modules/ansi-regex/package.json" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/eslint/node_modules/ansi-regex/readme.md" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/eslint/node_modules/debug/.coveralls.yml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/eslint/node_modules/debug/.eslintrc" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/eslint/node_modules/debug/.npmignore" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/eslint/node_modules/debug/.travis.yml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/eslint/node_modules/debug/CHANGELOG.md" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/eslint/node_modules/debug/LICENSE" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/eslint/node_modules/debug/Makefile" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/eslint/node_modules/debug/README.md" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/eslint/node_modules/debug/karma.conf.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/eslint/node_modules/debug/node.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/eslint/node_modules/debug/package.json" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/eslint/node_modules/debug/src/browser.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/eslint/node_modules/debug/src/debug.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/eslint/node_modules/debug/src/index.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/eslint/node_modules/debug/src/node.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/eslint/node_modules/esprima/ChangeLog" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/eslint/node_modules/esprima/LICENSE.BSD" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/eslint/node_modules/esprima/README.md" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/eslint/node_modules/esprima/bin/esparse.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/eslint/node_modules/esprima/bin/esvalidate.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/eslint/node_modules/esprima/dist/esprima.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/eslint/node_modules/esprima/package.json" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/eslint/node_modules/globals/globals.json" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/eslint/node_modules/globals/index.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/eslint/node_modules/globals/license" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/eslint/node_modules/globals/package.json" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/eslint/node_modules/globals/readme.md" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/eslint/node_modules/js-yaml/CHANGELOG.md" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/eslint/node_modules/js-yaml/LICENSE" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/eslint/node_modules/js-yaml/README.md" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/eslint/node_modules/js-yaml/bin/js-yaml.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/eslint/node_modules/js-yaml/dist/js-yaml.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/eslint/node_modules/js-yaml/dist/js-yaml.min.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/eslint/node_modules/js-yaml/index.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/eslint/node_modules/js-yaml/lib/js-yaml.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/eslint/node_modules/js-yaml/lib/js-yaml/common.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/eslint/node_modules/js-yaml/lib/js-yaml/dumper.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/eslint/node_modules/js-yaml/lib/js-yaml/exception.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/eslint/node_modules/js-yaml/lib/js-yaml/loader.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/eslint/node_modules/js-yaml/lib/js-yaml/mark.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/eslint/node_modules/js-yaml/lib/js-yaml/schema.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/eslint/node_modules/js-yaml/lib/js-yaml/schema/core.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/eslint/node_modules/js-yaml/lib/js-yaml/schema/default_full.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/eslint/node_modules/js-yaml/lib/js-yaml/schema/default_safe.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/eslint/node_modules/js-yaml/lib/js-yaml/schema/failsafe.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/eslint/node_modules/js-yaml/lib/js-yaml/schema/json.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/eslint/node_modules/js-yaml/lib/js-yaml/type.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/eslint/node_modules/js-yaml/lib/js-yaml/type/binary.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/eslint/node_modules/js-yaml/lib/js-yaml/type/bool.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/eslint/node_modules/js-yaml/lib/js-yaml/type/float.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/eslint/node_modules/js-yaml/lib/js-yaml/type/int.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/eslint/node_modules/js-yaml/lib/js-yaml/type/js/function.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/eslint/node_modules/js-yaml/lib/js-yaml/type/js/regexp.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/eslint/node_modules/js-yaml/lib/js-yaml/type/js/undefined.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/eslint/node_modules/js-yaml/lib/js-yaml/type/map.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/eslint/node_modules/js-yaml/lib/js-yaml/type/merge.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/eslint/node_modules/js-yaml/lib/js-yaml/type/null.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/eslint/node_modules/js-yaml/lib/js-yaml/type/omap.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/eslint/node_modules/js-yaml/lib/js-yaml/type/pairs.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/eslint/node_modules/js-yaml/lib/js-yaml/type/seq.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/eslint/node_modules/js-yaml/lib/js-yaml/type/set.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/eslint/node_modules/js-yaml/lib/js-yaml/type/str.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/eslint/node_modules/js-yaml/lib/js-yaml/type/timestamp.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/eslint/node_modules/js-yaml/package.json" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/eslint/node_modules/strip-ansi/index.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/eslint/node_modules/strip-ansi/license" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/eslint/node_modules/strip-ansi/package.json" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/eslint/node_modules/strip-ansi/readme.md" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/eslint/package.json" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/espree/CHANGELOG.md" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/espree/LICENSE" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/espree/README.md" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/espree/espree.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/espree/lib/ast-node-types.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/espree/lib/comment-attachment.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/espree/lib/features.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/espree/lib/token-translator.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/espree/lib/visitor-keys.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/espree/package.json" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/esquery/README.md" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/esquery/esquery.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/esquery/license.txt" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/esquery/package.json" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/esquery/parser.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/external-editor/LICENSE" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/external-editor/README.md" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/external-editor/example_async.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/external-editor/example_sync.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/external-editor/main/errors/CreateFileError.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/external-editor/main/errors/LaunchEditorError.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/external-editor/main/errors/ReadFileError.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/external-editor/main/errors/RemoveFileError.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/external-editor/main/index.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/external-editor/package.json" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/fast-levenshtein/LICENSE.md" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/fast-levenshtein/README.md" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/fast-levenshtein/levenshtein.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/fast-levenshtein/package.json" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/figures/index.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/figures/license" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/figures/package.json" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/figures/readme.md" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/file-entry-cache/LICENSE" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/file-entry-cache/README.md" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/file-entry-cache/cache.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/file-entry-cache/changelog.md" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/file-entry-cache/package.json" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/find-root/.npmignore" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/find-root/LICENSE.md" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/find-root/README.md" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/find-root/index.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/find-root/package.json" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/find-root/test/test.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/flat-cache/LICENSE" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/flat-cache/README.md" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/flat-cache/cache.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/flat-cache/changelog.md" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/flat-cache/package.json" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/flat-cache/utils.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/functional-red-black-tree/.npmignore" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/functional-red-black-tree/LICENSE" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/functional-red-black-tree/README.md" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/functional-red-black-tree/bench/test.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/functional-red-black-tree/package.json" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/functional-red-black-tree/rbtree.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/functional-red-black-tree/test/test.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/iconv-lite/.travis.yml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/iconv-lite/Changelog.md" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/iconv-lite/LICENSE" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/iconv-lite/README.md" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/iconv-lite/encodings/dbcs-codec.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/iconv-lite/encodings/dbcs-data.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/iconv-lite/encodings/index.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/iconv-lite/encodings/internal.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/iconv-lite/encodings/sbcs-codec.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/iconv-lite/encodings/sbcs-data-generated.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/iconv-lite/encodings/sbcs-data.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/iconv-lite/encodings/tables/big5-added.json" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/iconv-lite/encodings/tables/cp936.json" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/iconv-lite/encodings/tables/cp949.json" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/iconv-lite/encodings/tables/cp950.json" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/iconv-lite/encodings/tables/eucjp.json" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/iconv-lite/encodings/tables/gb18030-ranges.json" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/iconv-lite/encodings/tables/gbk-added.json" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/iconv-lite/encodings/tables/shiftjis.json" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/iconv-lite/encodings/utf16.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/iconv-lite/encodings/utf7.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/iconv-lite/lib/bom-handling.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/iconv-lite/lib/extend-node.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/iconv-lite/lib/index.d.ts" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/iconv-lite/lib/index.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/iconv-lite/lib/streams.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/iconv-lite/package.json" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/inquirer/README.md" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/inquirer/lib/inquirer.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/inquirer/lib/objects/choice.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/inquirer/lib/objects/choices.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/inquirer/lib/objects/separator.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/inquirer/lib/prompts/base.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/inquirer/lib/prompts/checkbox.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/inquirer/lib/prompts/confirm.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/inquirer/lib/prompts/editor.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/inquirer/lib/prompts/expand.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/inquirer/lib/prompts/input.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/inquirer/lib/prompts/list.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/inquirer/lib/prompts/password.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/inquirer/lib/prompts/rawlist.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/inquirer/lib/ui/baseUI.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/inquirer/lib/ui/bottom-bar.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/inquirer/lib/ui/prompt.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/inquirer/lib/utils/events.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/inquirer/lib/utils/paginator.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/inquirer/lib/utils/readline.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/inquirer/lib/utils/screen-manager.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/inquirer/lib/utils/utils.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/inquirer/node_modules/ansi-regex/index.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/inquirer/node_modules/ansi-regex/license" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/inquirer/node_modules/ansi-regex/package.json" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/inquirer/node_modules/ansi-regex/readme.md" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/inquirer/node_modules/strip-ansi/index.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/inquirer/node_modules/strip-ansi/license" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/inquirer/node_modules/strip-ansi/package.json" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/inquirer/node_modules/strip-ansi/readme.md" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/inquirer/package.json" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/is-absolute/LICENSE" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/is-absolute/README.md" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/is-absolute/index.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/is-absolute/package.json" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/is-promise/.npmignore" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/is-promise/.travis.yml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/is-promise/LICENSE" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/is-promise/index.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/is-promise/package.json" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/is-promise/readme.md" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/is-relative/LICENSE" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/is-relative/README.md" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/is-relative/index.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/is-relative/package.json" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/is-resolvable/LICENSE" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/is-resolvable/README.md" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/is-resolvable/index.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/is-resolvable/package.json" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/is-unc-path/LICENSE" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/is-unc-path/README.md" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/is-unc-path/index.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/is-unc-path/package.json" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/is-windows/LICENSE" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/is-windows/index.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/is-windows/package.json" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/json-stable-stringify-without-jsonify/.npmignore" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/json-stable-stringify-without-jsonify/.travis.yml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/json-stable-stringify-without-jsonify/LICENSE" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/json-stable-stringify-without-jsonify/example/key_cmp.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/json-stable-stringify-without-jsonify/example/nested.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/json-stable-stringify-without-jsonify/example/str.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/json-stable-stringify-without-jsonify/example/value_cmp.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/json-stable-stringify-without-jsonify/index.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/json-stable-stringify-without-jsonify/package.json" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/json-stable-stringify-without-jsonify/readme.markdown" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/json-stable-stringify-without-jsonify/test/cmp.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/json-stable-stringify-without-jsonify/test/nested.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/json-stable-stringify-without-jsonify/test/replacer.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/json-stable-stringify-without-jsonify/test/space.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/json-stable-stringify-without-jsonify/test/str.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/json-stable-stringify-without-jsonify/test/to-json.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/levn/LICENSE" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/levn/README.md" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/levn/lib/cast.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/levn/lib/coerce.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/levn/lib/index.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/levn/lib/parse-string.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/levn/lib/parse.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/levn/package.json" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/loader-fs-cache/.npmignore" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/loader-fs-cache/LICENSE" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/loader-fs-cache/index.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/loader-fs-cache/node_modules/find-cache-dir/index.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/loader-fs-cache/node_modules/find-cache-dir/license" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/loader-fs-cache/node_modules/find-cache-dir/package.json" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/loader-fs-cache/node_modules/find-cache-dir/readme.md" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/loader-fs-cache/node_modules/find-up/index.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/loader-fs-cache/node_modules/find-up/license" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/loader-fs-cache/node_modules/find-up/package.json" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/loader-fs-cache/node_modules/find-up/readme.md" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/loader-fs-cache/node_modules/path-exists/index.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/loader-fs-cache/node_modules/path-exists/license" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/loader-fs-cache/node_modules/path-exists/package.json" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/loader-fs-cache/node_modules/path-exists/readme.md" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/loader-fs-cache/node_modules/pkg-dir/index.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/loader-fs-cache/node_modules/pkg-dir/license" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/loader-fs-cache/node_modules/pkg-dir/package.json" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/loader-fs-cache/node_modules/pkg-dir/readme.md" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/loader-fs-cache/package.json" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/lodash._baseget/LICENSE.txt" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/lodash._baseget/README.md" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/lodash._baseget/index.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/lodash._baseget/package.json" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/lodash._topath/LICENSE" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/lodash._topath/README.md" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/lodash._topath/index.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/lodash._topath/package.json" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/lodash.get/LICENSE.txt" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/lodash.get/README.md" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/lodash.get/index.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/lodash.get/package.json" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/lodash.isarray/LICENSE" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/lodash.isarray/README.md" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/lodash.isarray/index.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/lodash.isarray/package.json" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/memory-fs/.gitattributes" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/memory-fs/.npmignore" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/memory-fs/.travis.yml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/memory-fs/README.md" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/memory-fs/lib/MemoryFileSystem.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/memory-fs/lib/join.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/memory-fs/lib/normalize.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/memory-fs/package.json" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/memory-fs/test/MemoryFileSystem.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/mute-stream/.nyc_output/33508.json" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/mute-stream/.nyc_output/33510.json" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/mute-stream/.travis.yml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/mute-stream/LICENSE" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/mute-stream/README.md" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/mute-stream/coverage/lcov-report/__root__/index.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/mute-stream/coverage/lcov-report/__root__/mute.js.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/mute-stream/coverage/lcov-report/base.css" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/mute-stream/coverage/lcov-report/index.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/mute-stream/coverage/lcov-report/prettify.css" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/mute-stream/coverage/lcov-report/prettify.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/mute-stream/coverage/lcov-report/sort-arrow-sprite.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/mute-stream/coverage/lcov-report/sorter.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/mute-stream/coverage/lcov.info" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/mute-stream/mute.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/mute-stream/package.json" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/mute-stream/test/basic.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/natural-compare/README.md" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/natural-compare/index.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/natural-compare/package.json" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/object-hash/.jshintrc" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/object-hash/.travis.yml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/object-hash/LICENSE" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/object-hash/bower.json" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/object-hash/dist/object_hash.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/object-hash/dist/object_hash.js.map" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/object-hash/dist/object_hash_test.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/object-hash/gulpfile.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/object-hash/index.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/object-hash/karma.conf.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/object-hash/package.json" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/object-hash/readme.markdown" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/object-hash/test/blob.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/object-hash/test/index.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/object-hash/test/object-classes.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/object-hash/test/old-crypto.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/object-hash/test/replacer.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/object-hash/test/types.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/object-hash/test/writeToStream.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/optionator/CHANGELOG.md" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/optionator/LICENSE" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/optionator/README.md" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/optionator/lib/help.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/optionator/lib/index.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/optionator/lib/util.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/optionator/package.json" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/pluralize/LICENSE" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/pluralize/Readme.md" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/pluralize/package.json" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/pluralize/pluralize.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/prelude-ls/CHANGELOG.md" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/prelude-ls/LICENSE" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/prelude-ls/README.md" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/prelude-ls/lib/Func.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/prelude-ls/lib/List.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/prelude-ls/lib/Num.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/prelude-ls/lib/Obj.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/prelude-ls/lib/Str.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/prelude-ls/lib/index.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/prelude-ls/package.json" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/progress/.npmignore" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/progress/CHANGELOG.md" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/progress/LICENSE" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/progress/Makefile" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/progress/README.md" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/progress/index.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/progress/lib/node-progress.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/progress/package.json" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/regexpp/LICENSE" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/regexpp/README.md" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/regexpp/index.d.ts" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/regexpp/index.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/regexpp/index.js.map" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/regexpp/index.mjs" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/regexpp/index.mjs.map" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/regexpp/package.json" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/require-uncached/index.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/require-uncached/license" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/require-uncached/package.json" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/require-uncached/readme.md" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/resolve-from/index.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/resolve-from/license" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/resolve-from/package.json" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/resolve-from/readme.md" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/run-async/LICENSE" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/run-async/README.md" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/run-async/index.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/run-async/package.json" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/rx-lite-aggregates/package.json" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/rx-lite-aggregates/readme.md" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/rx-lite-aggregates/rx.lite.aggregates.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/rx-lite-aggregates/rx.lite.aggregates.map" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/rx-lite-aggregates/rx.lite.aggregates.min.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/rx-lite/package.json" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/rx-lite/readme.md" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/rx-lite/rx.lite.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/rx-lite/rx.lite.map" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/rx-lite/rx.lite.min.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/safer-buffer/LICENSE" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/safer-buffer/Porting-Buffer.md" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/safer-buffer/Readme.md" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/safer-buffer/dangerous.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/safer-buffer/package.json" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/safer-buffer/safer.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/safer-buffer/tests.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/slice-ansi/index.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/slice-ansi/license" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/slice-ansi/package.json" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/slice-ansi/readme.md" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/strip-json-comments/index.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/strip-json-comments/license" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/strip-json-comments/package.json" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/strip-json-comments/readme.md" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/table/LICENSE" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/table/README.md" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/table/dist/alignString.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/table/dist/alignTableData.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/table/dist/calculateCellHeight.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/table/dist/calculateCellWidthIndex.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/table/dist/calculateMaximumColumnWidthIndex.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/table/dist/calculateRowHeightIndex.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/table/dist/createStream.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/table/dist/drawBorder.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/table/dist/drawRow.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/table/dist/drawTable.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/table/dist/getBorderCharacters.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/table/dist/index.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/table/dist/makeConfig.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/table/dist/makeStreamConfig.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/table/dist/mapDataUsingRowHeightIndex.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/table/dist/padTableData.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/table/dist/schemas/config.json" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/table/dist/schemas/streamConfig.json" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/table/dist/stringifyTableData.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/table/dist/table.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/table/dist/truncateTableData.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/table/dist/validateConfig.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/table/dist/validateStreamConfig.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/table/dist/validateTableData.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/table/dist/wrapString.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/table/dist/wrapWord.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/table/package.json" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/tapable/.gitattributes" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/tapable/.npmignore" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/tapable/.travis.yml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/tapable/README.md" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/tapable/lib/Tapable.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/tapable/package.json" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/tapable/test/applyPluginsParallelBailResultTest.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/text-table/.travis.yml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/text-table/LICENSE" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/text-table/example/align.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/text-table/example/center.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/text-table/example/dotalign.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/text-table/example/doubledot.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/text-table/example/table.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/text-table/index.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/text-table/package.json" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/text-table/readme.markdown" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/text-table/test/align.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/text-table/test/ansi-colors.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/text-table/test/center.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/text-table/test/dotalign.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/text-table/test/doubledot.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/text-table/test/table.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/through/.travis.yml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/through/LICENSE.APACHE2" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/through/LICENSE.MIT" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/through/index.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/through/package.json" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/through/readme.markdown" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/through/test/async.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/through/test/auto-destroy.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/through/test/buffering.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/through/test/end.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/through/test/index.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/tmp/LICENSE" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/tmp/README.md" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/tmp/lib/tmp.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/tmp/package.json" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/type-check/LICENSE" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/type-check/README.md" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/type-check/lib/check.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/type-check/lib/index.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/type-check/lib/parse-type.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/type-check/package.json" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/unc-path-regex/LICENSE" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/unc-path-regex/README.md" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/unc-path-regex/index.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/unc-path-regex/package.json" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/vue-eslint-parser/LICENSE" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/vue-eslint-parser/README.md" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/vue-eslint-parser/index.d.ts" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/vue-eslint-parser/index.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/vue-eslint-parser/index.js.map" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/vue-eslint-parser/node_modules/debug/.coveralls.yml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/vue-eslint-parser/node_modules/debug/.eslintrc" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/vue-eslint-parser/node_modules/debug/.npmignore" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/vue-eslint-parser/node_modules/debug/.travis.yml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/vue-eslint-parser/node_modules/debug/CHANGELOG.md" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/vue-eslint-parser/node_modules/debug/LICENSE" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/vue-eslint-parser/node_modules/debug/Makefile" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/vue-eslint-parser/node_modules/debug/README.md" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/vue-eslint-parser/node_modules/debug/karma.conf.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/vue-eslint-parser/node_modules/debug/node.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/vue-eslint-parser/node_modules/debug/package.json" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/vue-eslint-parser/node_modules/debug/src/browser.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/vue-eslint-parser/node_modules/debug/src/debug.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/vue-eslint-parser/node_modules/debug/src/index.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/vue-eslint-parser/node_modules/debug/src/node.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/vue-eslint-parser/package.json" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/wordwrap/LICENSE" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/wordwrap/README.markdown" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/wordwrap/example/center.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/wordwrap/example/meat.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/wordwrap/index.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/wordwrap/package.json" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/wordwrap/test/break.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/wordwrap/test/idleness.txt" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/wordwrap/test/wrap.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/write/LICENSE" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/write/README.md" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/write/index.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/write/package.json" afterPath="" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/webpack.base.conf.js" afterPath="$PROJECT_DIR$/build/webpack.base.conf.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/package-lock.json" afterPath="$PROJECT_DIR$/package-lock.json" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/package.json" afterPath="$PROJECT_DIR$/package.json" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/common/http.js" afterPath="$PROJECT_DIR$/src/common/http.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/components/HelloWorld.vue" afterPath="$PROJECT_DIR$/src/components/HelloWorld.vue" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/router/index.js" afterPath="$PROJECT_DIR$/src/router/index.js" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
@@ -1328,101 +24,21 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="dev.env.js" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/config/dev.env.js">
+      <file leaf-file-name="HelloWorld.vue" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/components/HelloWorld.vue">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="0">
-              <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+            <state relative-caret-position="203">
+              <caret line="106" column="8" lean-forward="true" selection-start-line="106" selection-start-column="8" selection-end-line="106" selection-end-column="8" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="prod.env.js" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/config/prod.env.js">
+      <file leaf-file-name="http.js" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/common/http.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="0">
-              <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="build.js" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/build/build.js">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-208">
-              <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="check-versions.js" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/build/check-versions.js">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-736">
-              <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="utils.js" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/build/utils.js">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-2032">
-              <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="vue-loader.conf.js" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/build/vue-loader.conf.js">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="0">
-              <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="webpack.base.conf.js" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/build/webpack.base.conf.js">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="240">
-              <caret line="10" column="0" lean-forward="false" selection-start-line="10" selection-start-column="3" selection-end-line="19" selection-end-column="5" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="webpack.dev.conf.js" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/build/webpack.dev.conf.js">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="0">
-              <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="webpack.prod.conf.js" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/build/webpack.prod.conf.js">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="3264">
-              <caret line="136" column="3" lean-forward="false" selection-start-line="136" selection-start-column="3" selection-end-line="136" selection-end-column="3" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="package.json" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/package.json">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="840">
-              <caret line="35" column="28" lean-forward="false" selection-start-line="35" selection-start-column="28" selection-end-line="35" selection-end-column="28" />
+            <state relative-caret-position="251">
+              <caret line="33" column="42" lean-forward="false" selection-start-line="33" selection-start-column="36" selection-end-line="33" selection-end-column="42" />
               <folding />
             </state>
           </provider>
@@ -1436,11 +52,11 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/src/common/http.js" />
-        <option value="$PROJECT_DIR$/src/components/HelloWorld.vue" />
         <option value="$PROJECT_DIR$/src/router/index.js" />
         <option value="$PROJECT_DIR$/package.json" />
         <option value="$PROJECT_DIR$/build/webpack.base.conf.js" />
+        <option value="$PROJECT_DIR$/src/common/http.js" />
+        <option value="$PROJECT_DIR$/src/components/HelloWorld.vue" />
       </list>
     </option>
   </component>
@@ -1585,7 +201,57 @@
     <property name="HbShouldOpenHtmlAsHb" value="" />
   </component>
   <component name="RunManager">
+    <configuration default="true" type="DartCommandLineRunConfigurationType" factoryName="Dart Command Line Application">
+      <method />
+    </configuration>
+    <configuration default="true" type="DartTestRunConfigurationType" factoryName="Dart Test">
+      <method />
+    </configuration>
+    <configuration default="true" type="JavaScriptTestRunnerKarma" factoryName="Karma">
+      <config-file value="" />
+      <node-interpreter value="project" />
+      <envs />
+      <method />
+    </configuration>
+    <configuration default="true" type="JavaScriptTestRunnerProtractor" factoryName="Protractor">
+      <config-file value="" />
+      <node-interpreter value="project" />
+      <envs />
+      <method />
+    </configuration>
+    <configuration default="true" type="JavascriptDebugType" factoryName="JavaScript Debug">
+      <method />
+    </configuration>
     <configuration default="true" type="NodeJSConfigurationType" factoryName="Node.js" path-to-node="project" working-dir="">
+      <method />
+    </configuration>
+    <configuration default="true" type="cucumber.js" factoryName="Cucumber.js">
+      <option name="cucumberJsArguments" value="" />
+      <option name="executablePath" />
+      <option name="filePath" />
+      <method />
+    </configuration>
+    <configuration default="true" type="js.build_tools.gulp" factoryName="Gulp.js">
+      <method />
+    </configuration>
+    <configuration default="true" type="js.build_tools.npm" factoryName="npm">
+      <command value="run-script" />
+      <scripts />
+      <node-interpreter value="project" />
+      <envs />
+      <method />
+    </configuration>
+    <configuration default="true" type="mocha-javascript-test-runner" factoryName="Mocha">
+      <node-interpreter>project</node-interpreter>
+      <node-options />
+      <working-directory />
+      <pass-parent-env>true</pass-parent-env>
+      <envs />
+      <ui />
+      <extra-mocha-options />
+      <test-kind>DIRECTORY</test-kind>
+      <test-directory />
+      <recursive>false</recursive>
       <method />
     </configuration>
   </component>
@@ -1599,12 +265,20 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1527921095841</updated>
-      <workItem from="1527921097278" duration="2265000" />
+      <workItem from="1527921097278" duration="4250000" />
     </task>
+    <task id="LOCAL-00001" summary="commit">
+      <created>1527924500610</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1527924500610</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="2265000" />
+    <option name="totallyTimeSpent" value="4250000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="233" y="27" width="1385" height="877" extended-state="0" />
@@ -1636,6 +310,10 @@
   <component name="VcsContentAnnotationSettings">
     <option name="myLimit" value="2678400000" />
   </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="commit" />
+    <option name="LAST_COMMIT_MESSAGE" value="commit" />
+  </component>
   <component name="XDebuggerManager">
     <breakpoint-manager />
     <watches-manager />
@@ -1649,41 +327,12 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/common/http.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="104">
-          <caret line="28" column="25" lean-forward="true" selection-start-line="28" selection-start-column="25" selection-end-line="28" selection-end-column="25" />
-          <folding>
-            <element signature="n#!!doc" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/components/HelloWorld.vue">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="299">
-          <caret line="95" column="12" lean-forward="true" selection-start-line="95" selection-start-column="12" selection-end-line="95" selection-end-column="12" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="48">
           <caret line="2" column="0" lean-forward="false" selection-start-line="2" selection-start-column="0" selection-end-line="2" selection-end-column="20" />
           <folding>
             <element signature="n#!!doc" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/router/index.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="312">
-          <caret line="13" column="6" lean-forward="true" selection-start-line="13" selection-start-column="6" selection-end-line="13" selection-end-column="6" />
-          <folding>
-            <element signature="n#!!doc" expanded="false" />
-            <element signature="e#21#43#0" expanded="false" />
           </folding>
         </state>
       </provider>
@@ -1780,6 +429,30 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="240">
           <caret line="10" column="0" lean-forward="false" selection-start-line="10" selection-start-column="3" selection-end-line="19" selection-end-column="5" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/router/index.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="264">
+          <caret line="13" column="6" lean-forward="true" selection-start-line="13" selection-start-column="6" selection-end-line="13" selection-end-column="6" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/common/http.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="251">
+          <caret line="33" column="42" lean-forward="false" selection-start-line="33" selection-start-column="36" selection-end-line="33" selection-end-column="42" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/components/HelloWorld.vue">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="203">
+          <caret line="106" column="8" lean-forward="true" selection-start-line="106" selection-start-column="8" selection-end-line="106" selection-end-column="8" />
           <folding />
         </state>
       </provider>

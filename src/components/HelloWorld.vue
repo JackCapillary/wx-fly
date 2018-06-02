@@ -115,7 +115,7 @@ export default {
               console.log(res);
           }
       });
-      http.delect(this, body, (res)=> {
+      http.delect(this, {user: 1}, (res)=> {
           if (res.data.data) {
               console.log(res);
           }
