@@ -80,6 +80,8 @@
         </a>
       </li>
     </ul>
+    <p @click="dlUser">删除数据</p>
+    <p @click="diedFor" v-show="btShow">循环增加数据(只能点击一次)</p>
     <p v-for="(item, key) in backData" :key="key">
       <span>{{item.name}}----{{item.password}}</span>
     </p>
@@ -96,6 +98,7 @@ export default {
     return {
       msg: 'Welcome to Your Vue.js App',
       backData: [],
+      btShow: true,
     };
   },
   mounted() {
@@ -106,24 +109,36 @@ export default {
           password: 'huygo.info',
       };
       http.update(this, body, (res)=> {
-          if (res.data.data) {
+          if (res.data.status === 1) {
               console.log(res);
           }
       });
       http.delect(this, {user: 1}, (res)=> {
-          if (res.data.data) {
+          if (res.data.status === 1) {
               console.log(res);
           }
       });
       http.getData(this, {}, (res)=> {
-          if (res.data.data) {
+          if (res.data.status === 1) {
               this.backData = res.data.data;
           }
       });
       this.diedFor(0);
+      console.log(http)
   },
     methods: {
-        diedFor(id) {
+        diedFor(index) {
+            let id = index;
+            console.log(typeof index);
+            if (typeof index !== 'number') {
+                this.btShow = false;
+                http.getData(this, {}, (res)=> {
+                    if (res.data.status === 1) {
+                        this.backData = res.data.data;
+                    }
+                });
+                id = this.backData[this.backData.length - 1].id + 1;
+            }
             let body = {
                 id: id,
                 user: 'huygo',
@@ -131,9 +146,26 @@ export default {
                 password: 'huygo.info',
             };
             http.users(this, body, (res)=> {
-                if (res.data.data) {
-                    console.log(res);
-                    this.diedFor(body.id+=1);
+                if (res.data.status === 1) {
+                    http.getData(this, {}, (res)=> {
+                        if (res.data.status === 1) {
+                            this.backData = res.data.data;
+                            if (typeof index !== 'number' || id >= 1) {
+                                this.diedFor(body.id += 1)
+                            }
+                        }
+                    });
+                }
+            });
+        },
+        dlUser() {
+            http.delect(this, {user: 'huygoNew'}, (res)=> {
+                if (res.data.status === 1) {
+                    http.getData(this, {}, (res)=> {
+                        if (res.data.status === 1) {
+                            this.backData = res.data.data;
+                        }
+                    });
                 }
             });
         },
