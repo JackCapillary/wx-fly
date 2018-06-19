@@ -124,7 +124,6 @@ export default {
           }
       });
       this.diedFor(0);
-      console.log(http)
   },
     methods: {
         diedFor(index) {
