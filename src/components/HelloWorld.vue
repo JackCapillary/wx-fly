@@ -81,6 +81,7 @@
       </li>
     </ul>
     <p @click="dlUser">删除数据</p>
+    <p @click="stopReset">停止死循环并刷新页面</p>
     <p @click="diedFor" v-show="btShow">循环增加数据(只能点击一次)</p>
     <p v-for="(item, key) in backData" :key="key">
       <span>{{item.name}}----{{item.password}}</span>
@@ -126,6 +127,9 @@ export default {
       this.diedFor(0);
   },
     methods: {
+        stopReset() {
+            window.location.reload();
+        },
         diedFor(index) {
             let id = index;
             console.log(typeof index);
