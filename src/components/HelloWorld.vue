@@ -90,95 +90,95 @@
 </template>
 
 <script>
-/* eslint-disable */
-import http from '../common/http';
+import http from "../common/http";
 
 export default {
-  name: 'HelloWorld',
+  name: "HelloWorld",
   data() {
     return {
-      msg: 'Welcome to Your Vue.js App',
+      msg: "Welcome to Your Vue.js App",
       backData: [],
-      btShow: true,
+      btShow: true
     };
   },
   mounted() {
-      const body = {
-          id: 1,
-          user: 'huygo',
-          newUser: 'huygoNew',
-          password: 'huygo.info',
-      };
-      http.update(this, body, (res)=> {
-          if (res.data.status === 1) {
-              console.log(res);
-          }
-      });
-      http.delect(this, {user: 1}, (res)=> {
-          if (res.data.status === 1) {
-              console.log(res);
-          }
-      });
-      http.getData(this, {}, (res)=> {
-          if (res.data.status === 1) {
-              this.backData = res.data.data;
-          }
-      });
-      this.diedFor(0);
+    const body = {
+      id: 1,
+      user: "huygo",
+      newUser: "huygoNew",
+      password: "huygo.info"
+    };
+    http.update(this, body, res => {
+      if (res.data.status === 1) {
+        // console.log(res);
+      }
+    });
+    http.delect(this, { user: 1 }, res => {
+      if (res.data.status === 1) {
+        // console.log(res);
+      }
+    });
+    http.getData(this, {}, res => {
+      if (res.data.status === 1) {
+        this.backData = res.data.data;
+      }
+    });
+    this.diedFor(0);
   },
-    methods: {
-        stopReset() {
-            window.location.reload();
-        },
-        diedFor(index) {
-            let id = index;
-            console.log(typeof index);
-            if (typeof index !== 'number') {
-                this.btShow = false;
-                http.getData(this, {}, (res)=> {
-                    if (res.data.status === 1) {
-                        this.backData = res.data.data;
-                    }
-                });
-                id = this.backData[this.backData.length - 1].id + 1;
-            }
-            let body = {
-                id: id,
-                user: 'huygo',
-                newUser: 'huygoNew',
-                password: 'huygo.info',
-            };
-            http.users(this, body, (res)=> {
-                if (res.data.status === 1) {
-                    http.getData(this, {}, (res)=> {
-                        if (res.data.status === 1) {
-                            this.backData = res.data.data;
-                            if (typeof index !== 'number' || id >= 1) {
-                                this.diedFor(body.id += 1)
-                            }
-                        }
-                    });
-                }
-            });
-        },
-        dlUser() {
-            http.delect(this, {user: 'huygoNew'}, (res)=> {
-                if (res.data.status === 1) {
-                    http.getData(this, {}, (res)=> {
-                        if (res.data.status === 1) {
-                            this.backData = res.data.data;
-                        }
-                    });
-                }
-            });
-        },
+  methods: {
+    stopReset() {
+      window.location.reload();
     },
+    diedFor(index) {
+      let id = index;
+      // console.log(typeof index);
+      if (typeof index !== "number") {
+        this.btShow = false;
+        http.getData(this, {}, res => {
+          if (res.data.status === 1) {
+            this.backData = res.data.data;
+          }
+        });
+        id = this.backData[this.backData.length - 1].id + 1;
+      }
+      let body = {
+        id: id,
+        user: "huygo",
+        newUser: "huygoNew",
+        password: "huygo.info"
+      };
+      http.users(this, body, res => {
+        if (res.data.status === 1) {
+          http.getData(this, {}, res => {
+            if (res.data.status === 1) {
+              this.backData = res.data.data;
+              if (typeof index !== "number" || id >= 1) {
+                this.diedFor((body.id += 1));
+              }
+            }
+          });
+        }
+      });
+    },
+    dlUser() {
+      http.delect(this, { user: "huygoNew" }, res => {
+        if (res.data.status === 1) {
+          http.getData(this, {}, res => {
+            if (res.data.status === 1) {
+              this.backData = res.data.data;
+            }
+          });
+        }
+      });
+    }
+  }
 };
 </script>
 
 <!-- Add "scoped" attribute to limit CSS to this component only -->
 <style scoped>
-h1, h2 {
+h1,
+h2 {
   font-weight: normal;
 }
 ul {
@@ -187,14 +187,18 @@ ul {
   justify-content: center;
   list-style-type: none;
   padding: 0;
-  font-size: 20px;/*no*/
+  font-size: 20px; /*no*/
   height: 100px;
 }
 li {
+  font-size: 12px; /*no*/
   display: inline-block;
-  margin: 0 10px;/*no*/
+  margin: 0 10px; /*no*/
 }
 a {
   color: #42b983;
+}
+p{
+  font-size: 14px;
 }
 </style>
