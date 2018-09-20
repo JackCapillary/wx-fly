@@ -187,12 +187,12 @@ ul {
   justify-content: center;
   list-style-type: none;
   padding: 0;
-  font-size: 20px;
+  font-size: 20px;/*no*/
   height: 100px;
 }
 li {
   display: inline-block;
-  margin: 0 10px;
+  margin: 0 10px;/*no*/
 }
 a {
   color: #42b983;
