@@ -90,35 +90,35 @@
 </template>
 
 <script>
-import http from "../common/http";
+import http from '../common/http';
 
 export default {
-  name: "HelloWorld",
+  name: 'HelloWorld',
   data() {
     return {
-      msg: "Welcome to Your Vue.js App",
+      msg: 'Welcome to Your Vue.js App',
       backData: [],
-      btShow: true
+      btShow: true,
     };
   },
   mounted() {
     const body = {
       id: 1,
-      user: "huygo",
-      newUser: "huygoNew",
-      password: "huygo.info"
+      user: 'huygo',
+      newUser: 'huygoNew',
+      password: 'huygo.info',
     };
-    http.update(this, body, res => {
+    http.update(this, body, (res) => {
       if (res.data.status === 1) {
         // console.log(res);
       }
     });
-    http.delect(this, { user: 1 }, res => {
+    http.delect(this, { user: 1 }, (res) => {
       if (res.data.status === 1) {
         // console.log(res);
       }
     });
-    http.getData(this, {}, res => {
+    http.getData(this, {}, (res) => {
       if (res.data.status === 1) {
         this.backData = res.data.data;
       }
@@ -132,27 +132,27 @@ export default {
     diedFor(index) {
       let id = index;
       // console.log(typeof index);
-      if (typeof index !== "number") {
+      if (typeof index !== 'number') {
         this.btShow = false;
-        http.getData(this, {}, res => {
+        http.getData(this, {}, (res) => {
           if (res.data.status === 1) {
             this.backData = res.data.data;
           }
         });
         id = this.backData[this.backData.length - 1].id + 1;
       }
-      let body = {
-        id: id,
-        user: "huygo",
-        newUser: "huygoNew",
-        password: "huygo.info"
+      const body = {
+        id,
+        user: 'huygo',
+        newUser: 'huygoNew',
+        password: 'huygo.info',
       };
-      http.users(this, body, res => {
+      http.users(this, body, (res) => {
         if (res.data.status === 1) {
-          http.getData(this, {}, res => {
-            if (res.data.status === 1) {
-              this.backData = res.data.data;
-              if (typeof index !== "number" || id >= 1) {
+          http.getData(this, {}, (back) => {
+            if (back.data.status === 1) {
+              this.backData = back.data.data;
+              if (typeof index !== 'number' || id >= 1) {
                 this.diedFor((body.id += 1));
               }
             }
@@ -161,17 +161,17 @@ export default {
       });
     },
     dlUser() {
-      http.delect(this, { user: "huygoNew" }, res => {
+      http.delect(this, { user: 'huygoNew' }, (res) => {
         if (res.data.status === 1) {
-          http.getData(this, {}, res => {
-            if (res.data.status === 1) {
-              this.backData = res.data.data;
+          http.getData(this, {}, (back) => {
+            if (back.data.status === 1) {
+              this.backData = back.data.data;
             }
           });
         }
       });
-    }
-  }
+    },
+  },
 };
 </script>
 
@@ -191,7 +191,7 @@ ul {
   height: 100px;
 }
 li {
-  font-size: 12px; /*no*/
+  font-size: 15px; /*no*/
   display: inline-block;
   margin: 0 10px; /*no*/
 }
@@ -199,6 +199,6 @@ a {
   color: #42b983;
 }
 p{
-  font-size: 14px;
+  font-size: 16px;/*no*/
 }
 </style>
