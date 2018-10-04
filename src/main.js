@@ -7,6 +7,7 @@ import axios from 'axios';
 import VueAxios from 'vue-axios';
 import App from './App';
 import router from './router';
+import store from "./store";
 import "amfe-flexible";
 import "babel-polyfill";
 import "./styles/reset.css";
@@ -20,6 +21,7 @@ FastClick.attach(document.body);
 new Vue({
   el: '#app',
   router,
+  store,
   components: { App },
   template: '<App/>',
 });
