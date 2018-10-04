@@ -80,6 +80,8 @@
         </a>
       </li>
     </ul>
+    <p>vuex stroe {{ status }}</p>
+    <p @click="changeUpdate">click me change status</p>
     <p @click="dlUser">删除数据</p>
     <p @click="stopReset">停止死循环并刷新页面</p>
     <p @click="diedFor" v-show="btShow">循环增加数据(只能点击一次)</p>
@@ -90,6 +92,7 @@
 </template>
 
 <script>
+import { mapGetters, mapActions } from 'vuex';
 import http from '../common/http';
 
 export default {
@@ -100,6 +103,11 @@ export default {
       backData: [],
       btShow: true,
     };
+  },
+  computed: {
+    ...mapGetters({
+      status: 'getStatus',
+    }),
   },
   mounted() {
     const body = {
@@ -126,6 +134,12 @@ export default {
     this.diedFor(0);
   },
   methods: {
+    ...mapActions({
+      update: 'update',
+    }),
+    changeUpdate() {
+      this.update();
+    },
     stopReset() {
       window.location.reload();
     },

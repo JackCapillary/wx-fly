@@ -4,19 +4,23 @@
 // } from '../mutationTypes';
 
 const state = {
-  betMoney: '',
+  status: 0,
 };
+
 const mutations = {
-  // TO_SET_FAST3_CLEARBET() {
-  //   state.betMoney = [];
-  // },
+  UPDATE() {
+    state.status += 1;
+  },
 };
+
 const getters = {
-  // getBetMoney: state => state.betMoney,
+  getStatus: () => state.status,
 };
 
 const actions = {
-
+  update({ commit }) {
+    commit('UPDATE');
+  },
 };
 export default {
   state,
