@@ -1,37 +1,39 @@
 <script>
 export default {
   render(h) {
-    return h('div',
+    return h(
+      "div",
       {
         class: {
-          succes: true,
+          succes: true
         },
         style: {
-          color: 'red',
-          fontSize: '14px',
+          color: "red",
+          fontSize: "14px"
         },
         // 普通的 HTML 特性
         attrs: {
-          id: 'foo',
+          id: "foo"
         },
-        ref: 'myRef',
+        ref: "myRef",
         // DOM 属性
-        domProps: {
-          innerHTML: '我在哪？快把我找出来！',
-        },
+        // domProps: {
+        //   innerHTML: '我在哪？快把我找出来！',
+        // },
         on: {
-          click: this.handleClick,
-        },
+          click: () => {this.handleClick(h)}
+        }
       },
       [
-        '头疼'
+        h("span", "我在哪？快把我找出来！"),
+        h("p", "ojbk!"),
       ],
     );
   },
   methods: {
-    handleClick() {
-      console.log('是我！')
-    },
-  },
+    handleClick(e) {
+      console.log(e);
+    }
+  }
 };
 </script>
