@@ -33,7 +33,7 @@ exports.cssLoaders = function(options) {
   const postcssLoader = {
     loader: "postcss-loader",
     options: {
-      sourceMap: options.sourceMap, 
+      sourceMap: options.sourceMap,
       // NOTE: 配置 px2rem-loader
       // 在css-loader前应用的loader数目，默认为0.
       // 如果不加这个，@import的外部css文件不能正常转换。
@@ -62,6 +62,7 @@ exports.cssLoaders = function(options) {
     if (options.extract) {
       return ExtractTextPlugin.extract({
         use: loaders,
+        publicPath: '../../', // 注意配置这一部分，根据目录结构自由调整
         fallback: "vue-style-loader"
       });
     } else {

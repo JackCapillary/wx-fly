@@ -1,8 +1,25 @@
-'use strict'
 // Template version: 1.3.1
 // see http://vuejs-templates.github.io/webpack for documentation.
 
-const path = require('path')
+const path = require('path');
+const os = require('os');
+
+function getLocalIps(flagIpv6) {
+  const ifaces = os.networkInterfaces();
+  const ips = [];
+  const func = function (details) {
+    if (!flagIpv6 && details.family === 'IPv6') {
+      return;
+    }
+    ips.push(details.address);
+  };
+  for (const dev in ifaces) {
+    ifaces[dev].forEach(func);
+  }
+  return ips;
+}
+
+const iparr = getLocalIps();
 
 module.exports = {
   dev: {
@@ -13,7 +30,7 @@ module.exports = {
     proxyTable: {},
 
     // Various Dev Server settings
-    host: 'localhost', // can be overwritten by process.env.HOST
+    host: iparr[1], // can be overwritten by process.env.HOST
     port: 5000, // can be overwritten by process.env.PORT, if port is in use, a free one will be determined
     autoOpenBrowser: false,
     errorOverlay: true,
@@ -41,7 +58,7 @@ module.exports = {
     // https://vue-loader.vuejs.org/en/options.html#cachebusting
     cacheBusting: true,
 
-    cssSourceMap: true
+    cssSourceMap: true,
   },
 
   build: {
@@ -72,6 +89,6 @@ module.exports = {
     // View the bundle analyzer report after build finishes:
     // `npm run build --report`
     // Set to `true` or `false` to always turn it on or off
-    bundleAnalyzerReport: process.env.npm_config_report
-  }
-}
+    bundleAnalyzerReport: process.env.npm_config_report,
+  },
+};

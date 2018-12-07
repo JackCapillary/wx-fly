@@ -1,2 +1,4 @@
 export const SHOW_APP_LOADING = 'SHOW_APP_LOADING';
 export const HIDE_APP_LOADING = 'HIDE_APP_LOADING';
+export const HINT_MESSAGE = 'HINT_MESSAGE';
+export const SET_LOGIN_STATUS = 'SET_LOGIN_STATUS';

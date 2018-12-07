@@ -1,7 +1,8 @@
 import Vue from 'vue';
 import Vuex from 'vuex';
 
-import test from './modules/test';
+import home from './modules/home';
+import mine from './modules/mine';
 import global from './global';
 
 Vue.use(Vuex);
@@ -9,6 +10,7 @@ Vue.use(Vuex);
 export default new Vuex.Store({
   modules: {
     global, // 共用模块
-    test, // 子模板
+    home, // 子模板
+    mine,
   },
 });
