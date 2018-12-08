@@ -86,8 +86,8 @@
         <!-- <mt-field @click.native.capture="javascript" label="电影名" placeholder="写下您喜欢的电影" type="textarea" rows="4" v-model="introduction"></mt-field> -->
         <!-- <mt-button style="background-color:green" size="large" type="primary" @click="commitMovieTo">提交</mt-button> -->
       </div>
-      <div style="height:30px">
-      </div>
+      <!-- <div style="height:30px">
+      </div> -->
     </scroller>
   </div>
 </template>

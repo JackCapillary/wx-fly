@@ -10,7 +10,7 @@
 </template>
 
 <script>
-import { mapGetters, mapActions } from 'vuex';
+import { mapActions } from 'vuex';
 import HomeHeader from './childrens/HomeHeader';
 import HomeContent from './childrens/HomeContent';
 import HomeLogo from './childrens/HomeLogo';
@@ -33,7 +33,7 @@ export default {
       msgType: 'notice',
     };
     this.getUserMessageData(sendData);
-    console.log(this.$route.name);
+    // console.log(this.$route.name);
   },
   methods: {
     ...mapActions({
