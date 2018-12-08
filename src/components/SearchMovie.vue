@@ -8,7 +8,7 @@
       <div class="middle"><span class="title">电影</span></div>
       <div class="right"><span></span></div>
     </div>
-    <div>
+    <div class="content">
       <mt-field label="电影名" placeholder="写下您喜欢的电影" type="textarea" rows="4" v-model="introduction"></mt-field>
       <mt-button style="background-color:green" size="large" type="primary" @click="commitMovieTo">提交</mt-button>
     </div>
@@ -30,46 +30,46 @@ export default {
       // console.log(this.loginState)
       if (this.loginState === 0) {
         this.$store.dispatch({
-          type: "changeLoginModal",
-          param: true
+          type: 'changeLoginModal',
+          param: true,
         });
-        this.$router.push({ name: 'Login_Register' })
+        this.$router.push({ name: 'Login_Register' });
       } else {
         if (!this.introduction) {
           this.$store.dispatch({
-            type: "showHintMessage",
-            param: "要输入点东西嘛"
+            type: 'showHintMessage',
+            param: '要输入点东西嘛',
           });
           return;
-        } 
-          if (localStorage.getItem("setMovieTime")) {
-            if (
-              new Date().getTime() - localStorage.getItem("setMovieTime") <
+        }
+        if (localStorage.getItem('setMovieTime')) {
+          if (
+              new Date().getTime() - localStorage.getItem('setMovieTime') <
               5000
             ) {
               this.$store.dispatch({
-                type: "showHintMessage",
-                param: "别刷！停一停！"
+                type: 'showHintMessage',
+                param: '别刷！停一停！',
               });
               return;
             }
-          } else {
-            localStorage.setItem("setMovieTime", new Date().getTime());
-          }
-        
-        if (!localStorage.getItem("USERS_INFO")) {
-           this.$router.push({ name: "Login_Register" });
+        } else {
+          localStorage.setItem('setMovieTime', new Date().getTime());
+        }
+
+        if (!localStorage.getItem('USERS_INFO')) {
+          this.$router.push({ name: 'Login_Register' });
           return;
         }
         const info = {
-          userName: localStorage.getItem("USERS_INFO")
-            ? JSON.parse(localStorage.getItem("USERS_INFO")).userName
-            : "",
-          likeMovie: this.introduction
+          userName: localStorage.getItem('USERS_INFO')
+            ? JSON.parse(localStorage.getItem('USERS_INFO')).userName
+            : '',
+          likeMovie: this.introduction,
         };
         this.$store.dispatch({
-          type: "commitMovie",
-          param: info
+          type: 'commitMovie',
+          param: info,
         });
       }
     },
@@ -141,5 +141,8 @@ export default {
     text-align: center;
     font-size: 18px;
   }
+}
+.content{
+  padding-top:10px
 }
 </style>
