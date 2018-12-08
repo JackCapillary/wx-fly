@@ -35,8 +35,8 @@ export default {
   methods: {
     routeBack() {
       this.$router.go(-1);
-    }
-  }
+    },
+  },
 };
 </script>
 <style lang="scss" scoped>
@@ -45,19 +45,19 @@ export default {
   background-color: #eee;
   width: 100%;
   position: absolute;
-  top: 50px; /*no*/
-  bottom: 50px; /*no*/
+  top: 50px;
+  bottom: 50px;
   left: 0;
   .header {
     position: fixed;
     top: 0;
     left: 0;
-    height: 50px; /*no*/
+    height: 50px;
     width: 100%;
     background-color: #303538;
     font-size: 18px;
     color: #fff;
-    line-height: 50px; /*no*/
+    line-height: 50px;
     display: -webkit-box; /* 老版本语法: Safari, iOS, Android browser, older WebKit browsers. */
     display: -moz-box; /* 老版本语法: Firefox (buggy) */
     display: -ms-flexbox; /* 混合版本语法: IE 10 */

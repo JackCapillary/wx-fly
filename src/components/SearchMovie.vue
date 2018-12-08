@@ -19,7 +19,7 @@
 export default {
   data() {
     return {
-      introduction: ""
+      introduction: '',
     };
   },
   methods: {
@@ -41,7 +41,7 @@ export default {
             param: "要输入点东西嘛"
           });
           return;
-        } else {
+        } 
           if (localStorage.getItem("setMovieTime")) {
             if (
               new Date().getTime() - localStorage.getItem("setMovieTime") <
@@ -56,7 +56,7 @@ export default {
           } else {
             localStorage.setItem("setMovieTime", new Date().getTime());
           }
-        }
+        
         if (!localStorage.getItem("USERS_INFO")) {
            this.$router.push({ name: "Login_Register" });
           return;
@@ -72,8 +72,8 @@ export default {
           param: info
         });
       }
-    }
-  }
+    },
+  },
 };
 </script>
 <style lang="scss" scoped>
@@ -102,7 +102,7 @@ export default {
   -moz-align-items: center;
   -webkit-align-items: center;
   align-items: center;
-  height: 50px; /*no*/
+  height: 50px;
   color: white;
   z-index: 999;
   background-color: #303538;

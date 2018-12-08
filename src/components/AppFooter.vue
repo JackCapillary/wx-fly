@@ -41,6 +41,7 @@
 
 <script>
 import { mapGetters } from 'vuex';
+
 export default {
 
   watch: {
@@ -77,9 +78,9 @@ export default {
   left: 0;
   right: 0;
   bottom: 0;
-  height: 50px; /*no*/
+  height: 50px;
   padding-top: 5px;
-  padding-bottom: 5px;
+  // padding-bottom: 5px;
   border-top: 1px solid #ddd;
   background-color: #fff;
   display: -webkit-box; /* 老版本语法: Safari, iOS, Android browser, older WebKit browsers. */

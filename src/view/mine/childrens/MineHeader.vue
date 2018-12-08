@@ -58,7 +58,7 @@ export default {
   -moz-align-items: center;
   -webkit-align-items: center;
   align-items: center;
-  height: 50px; /*no*/
+  height: 50px;
   color: white;
   z-index: 999;
   background-color: #303538;

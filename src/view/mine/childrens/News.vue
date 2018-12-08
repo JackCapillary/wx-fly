@@ -124,7 +124,7 @@ export default {
 <style lang="scss" scoped>
 #mine-tab {
   height: 40px;
-  margin-top: 50px; /*no*/
+  margin-top: 50px;
   background-color: #fff;
   display: -webkit-box; /* 老版本语法: Safari, iOS, Android browser, older WebKit browsers. */
   display: -moz-box; /* 老版本语法: Firefox (buggy) */

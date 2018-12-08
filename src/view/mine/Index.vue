@@ -103,7 +103,7 @@
 </template>
 
 <script>
-import { mapActions, mapGetters } from "vuex";
+import { mapActions, mapGetters } from 'vuex';
 
 export default {
   components: {},
@@ -115,9 +115,9 @@ export default {
   },
   computed: {
     ...mapGetters({
-      userBalance: "getUserBalance",
-      loginState: "loginState"
-    })
+      userBalance: 'getUserBalance',
+      loginState: 'loginState',
+    }),
   },
   methods: {
     mineJumpTo(name) {
@@ -127,7 +127,7 @@ export default {
           param: true
         });
         this.$router.push({ name: "Login_Register" });
-        return;
+        
       } else {
         if (name === 'bet') {
           this.$store.dispatch({
@@ -144,16 +144,16 @@ export default {
     },
     goBack() {
       this.$store.dispatch({
-        type: "commitLoginOut"
+        type: 'commitLoginOut',
       });
     },
     goIn() {
       this.$store.dispatch({
-        type: "changeLoginModal",
-        param: true
+        type: 'changeLoginModal',
+        param: true,
       });
-      this.$router.push({ name: "Login_Register" });
-    }
+      this.$router.push({ name: 'Login_Register' });
+    },
     // ...mapActions({
     //   showAppCategory: 'showAppCategory',
     //   goBack: 'toGoBackTo',
@@ -169,7 +169,7 @@ export default {
     //     type: 'toSetCanGetCategory',
     //   });
     // },
-  }
+  },
 };
 </script>
 
@@ -179,8 +179,8 @@ export default {
   background-color: #eee;
   width: 100%;
   position: absolute;
-  top: 50px; /*no*/
-  bottom: 50px; /*no*/
+  top: 50px;
+  bottom: 50px;
   left: 0;
 }
 
@@ -188,12 +188,12 @@ export default {
   position: fixed;
   top: 0;
   left: 0;
-  height: 50px; /*no*/
+  height: 50px;
   width: 100%;
   background-color: #303538;
   font-size: 18px;
   color: #fff;
-  line-height: 50px; /*no*/
+  line-height: 50px;
   display: -webkit-box; /* 老版本语法: Safari, iOS, Android browser, older WebKit browsers. */
   display: -moz-box; /* 老版本语法: Firefox (buggy) */
   display: -ms-flexbox; /* 混合版本语法: IE 10 */

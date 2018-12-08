@@ -80,158 +80,156 @@
 export default {
   data() {
     return {
-      userName: "",
-      email: "",
-      oldPassWord1: "",
-      oldPassWord2: "",
-      oldPassWord3: "",
-      newPassWord3: "",
-      userState: "",
-      emailState: "",
-      oldPassWordState1: "",
-      oldPassWordState2: "",
-      oldPassWordState3: "",
-      newPassWordState3: "",
-      interval: ''
+      userName: '',
+      email: '',
+      oldPassWord1: '',
+      oldPassWord2: '',
+      oldPassWord3: '',
+      newPassWord3: '',
+      userState: '',
+      emailState: '',
+      oldPassWordState1: '',
+      oldPassWordState2: '',
+      oldPassWordState3: '',
+      newPassWordState3: '',
+      interval: '',
     };
   },
   methods: {
     updateUserName() {
       if (!this.userName && !this.oldPassWord1) {
-        this.userState = "warning";
-        this.oldPassWordState1 = "warning";
+        this.userState = 'warning';
+        this.oldPassWordState1 = 'warning';
         this.$store.dispatch({
-          type: "showHintMessage",
-          param: "您要输入点东西嘛"
+          type: 'showHintMessage',
+          param: '您要输入点东西嘛',
         });
       } else if (this.userName && !this.oldPassWord1) {
-        this.userState = "success";
-        this.oldPassWordState1 = "warning";
+        this.userState = 'success';
+        this.oldPassWordState1 = 'warning';
         this.$store.dispatch({
-          type: "showHintMessage",
-          param: "密码还没输入呢"
+          type: 'showHintMessage',
+          param: '密码还没输入呢',
         });
       } else if (!this.userName && this.oldPassWord1) {
-        this.userState = "warning";
-        this.oldPassWordState1 = "success";
+        this.userState = 'warning';
+        this.oldPassWordState1 = 'success';
         this.$store.dispatch({
-          type: "showHintMessage",
-          param: "用户名还没输入呢"
+          type: 'showHintMessage',
+          param: '用户名还没输入呢',
         });
       } else if (this.userName && this.oldPassWord1) {
-        this.userState = "success";
-        this.oldPassWordState1 = "success";
+        this.userState = 'success';
+        this.oldPassWordState1 = 'success';
         const params = {
-          type: "updateUserName",
-          baseUserName: JSON.parse(localStorage.getItem("USERS_INFO")).userName,
+          type: 'updateUserName',
+          baseUserName: JSON.parse(localStorage.getItem('USERS_INFO')).userName,
           userName: this.userName,
-          passWord: this.oldPassWord1
+          passWord: this.oldPassWord1,
         };
         this.$store.dispatch({
-          type: "updateInfo",
-          param: params
+          type: 'updateInfo',
+          param: params,
         });
       }
     },
     updateEmail() {
       if (!this.email && !this.oldPassWord2) {
-        this.emailState = "warning";
-        this.oldPassWordState2 = "warning";
+        this.emailState = 'warning';
+        this.oldPassWordState2 = 'warning';
         this.$store.dispatch({
-          type: "showHintMessage",
-          param: "您要输入点东西嘛"
+          type: 'showHintMessage',
+          param: '您要输入点东西嘛',
         });
       } else if (this.email && !this.oldPassWord2) {
         const reg = /^([a-zA-Z0-9]+[_|\_|\.]?)*[a-zA-Z0-9]+@([a-zA-Z0-9]+[_|\_|\.]?)*[a-zA-Z0-9]+\.[a-zA-Z]{2,3}$/;
         if (!reg.test(this.email)) {
-          this.emailState = "warning";
+          this.emailState = 'warning';
           this.$store.dispatch({
-            type: "showHintMessage",
-            param: "更改下邮箱格式"
+            type: 'showHintMessage',
+            param: '更改下邮箱格式',
           });
-          return;
         } else {
-          this.emailState = "success";
-          this.oldPassWordState2 = "warning";
+          this.emailState = 'success';
+          this.oldPassWordState2 = 'warning';
           this.$store.dispatch({
-            type: "showHintMessage",
-            param: "密码还没输入呢"
+            type: 'showHintMessage',
+            param: '密码还没输入呢',
           });
         }
       } else if (!this.email && this.oldPassWord2) {
-        this.emailState = "warning";
-        this.oldPassWordState2 = "success";
+        this.emailState = 'warning';
+        this.oldPassWordState2 = 'success';
         this.$store.dispatch({
-          type: "showHintMessage",
-          param: "邮箱还没输入呢"
+          type: 'showHintMessage',
+          param: '邮箱还没输入呢',
         });
       } else if (this.email && this.oldPassWord2) {
         const reg = /^([a-zA-Z0-9]+[_|\_|\.]?)*[a-zA-Z0-9]+@([a-zA-Z0-9]+[_|\_|\.]?)*[a-zA-Z0-9]+\.[a-zA-Z]{2,3}$/;
         if (!reg.test(this.email)) {
-          this.emailState = "warning";
+          this.emailState = 'warning';
           this.$store.dispatch({
-            type: "showHintMessage",
-            param: "更改下邮箱格式"
+            type: 'showHintMessage',
+            param: '更改下邮箱格式',
           });
-          return;
         } else {
-          this.emailState = "success";
-          this.oldPassWordState2 = "success";
+          this.emailState = 'success';
+          this.oldPassWordState2 = 'success';
           const params = {
-            type: "updateEmail",
-            baseUserName: JSON.parse(localStorage.getItem("USERS_INFO"))
+            type: 'updateEmail',
+            baseUserName: JSON.parse(localStorage.getItem('USERS_INFO'))
               .userName,
             email: this.email,
-            passWord: this.oldPassWord2
+            passWord: this.oldPassWord2,
           };
           this.$store.dispatch({
-            type: "updateInfo",
-            param: params
+            type: 'updateInfo',
+            param: params,
           });
         }
       }
     },
     updatePassWord() {
       if (!this.newPassWord3 && !this.oldPassWord3) {
-        this.newPassWordState3 = "warning";
-        this.oldPassWordState3 = "warning";
+        this.newPassWordState3 = 'warning';
+        this.oldPassWordState3 = 'warning';
         this.$store.dispatch({
-          type: "showHintMessage",
-          param: "您要输入点东西嘛"
+          type: 'showHintMessage',
+          param: '您要输入点东西嘛',
         });
       } else if (this.newPassWord3 && !this.oldPassWord3) {
-        this.newPassWordState3 = "success";
-        this.oldPassWordState3 = "warning";
+        this.newPassWordState3 = 'success';
+        this.oldPassWordState3 = 'warning';
         this.$store.dispatch({
-          type: "showHintMessage",
-          param: "旧密码还没输入呢"
+          type: 'showHintMessage',
+          param: '旧密码还没输入呢',
         });
       } else if (!this.newPassWord3 && this.oldPassWord3) {
-        this.newPassWordState3 = "warning";
-        this.oldPassWordState3 = "success";
+        this.newPassWordState3 = 'warning';
+        this.oldPassWordState3 = 'success';
         this.$store.dispatch({
-          type: "showHintMessage",
-          param: "新密码还没输入呢"
+          type: 'showHintMessage',
+          param: '新密码还没输入呢',
         });
       } else if (this.newPassWord3 && this.oldPassWord3) {
-        this.newPassWordState3 = "success";
-        this.oldPassWordState3 = "success";
+        this.newPassWordState3 = 'success';
+        this.oldPassWordState3 = 'success';
         const params = {
-          type: "updatePassWord",
-          baseUserName: JSON.parse(localStorage.getItem("USERS_INFO")).userName,
+          type: 'updatePassWord',
+          baseUserName: JSON.parse(localStorage.getItem('USERS_INFO')).userName,
           newPassWord: this.newPassWord3,
-          passWord: this.oldPassWord3
+          passWord: this.oldPassWord3,
         };
         this.$store.dispatch({
-          type: "updateInfo",
-          param: params
+          type: 'updateInfo',
+          param: params,
         });
       }
     },
     clickLeft() {
       this.$router.go(-1);
-    }
-  }
+    },
+  },
 };
 </script>
 <style lang="scss" scoped>
@@ -240,8 +238,8 @@ export default {
   background-color: #eee;
   width: 100%;
   position: absolute;
-  top: 50px; /*no*/
-  bottom: 10px; /*no*/
+  top: 50px;
+  bottom: 0;
   left: 0;
 }
 .header {
@@ -269,7 +267,7 @@ export default {
   -moz-align-items: center;
   -webkit-align-items: center;
   align-items: center;
-  height: 50px; /*no*/
+  height: 50px;
   color: white;
   z-index: 999;
   background-color: #303538;

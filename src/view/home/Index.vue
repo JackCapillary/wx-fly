@@ -30,9 +30,10 @@ export default {
   created() {
     this.getBanner();
     const sendData = {
-      msgType: 'notice'
-    }
+      msgType: 'notice',
+    };
     this.getUserMessageData(sendData);
+    console.log(this.$route.name);
   },
   methods: {
     ...mapActions({

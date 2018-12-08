@@ -93,48 +93,48 @@
 </template>
 
 <script>
-import { mapGetters } from "vuex";
+import { mapGetters } from 'vuex';
 
 export default {
   data() {
     return {
       likeDate: new Date().getTime(),
       carouselStatus: true,
-      introduction: ""
+      introduction: '',
     };
   },
   created() {},
   mounted() {
     const params = {
-      userName: localStorage.getItem("USERS_INFO")
-        ? JSON.parse(localStorage.getItem("USERS_INFO")).userName
-        : ""
+      userName: localStorage.getItem('USERS_INFO')
+        ? JSON.parse(localStorage.getItem('USERS_INFO')).userName
+        : '',
     };
     this.$store.dispatch({
-      type: "getMovie",
-      param: params
+      type: 'getMovie',
+      param: params,
     });
   },
   computed: {
     ...mapGetters({
-      banner: "banner",
-      movies: "movies",
-      loginState: "loginState",
-      mineNoticeData: "mineNoticeData"
-    })
+      banner: 'banner',
+      movies: 'movies',
+      loginState: 'loginState',
+      mineNoticeData: 'mineNoticeData',
+    }),
   },
   methods: {
     toNotify() {
-      this.$router.push({ name: "news" });
+      this.$router.push({ name: 'news' });
     },
     goChildren() {
-      if (!localStorage.getItem("USERS_INFO")) {
-        this.$router.push({ name: "Login_Register" });
+      if (!localStorage.getItem('USERS_INFO')) {
+        this.$router.push({ name: 'Login_Register' });
         return;
       }
-      this.$router.push({ name: "commit_moive" });
-    }
-  }
+      this.$router.push({ name: 'commit_moive' });
+    },
+  },
 };
 </script>
 
@@ -144,8 +144,8 @@ export default {
   position: absolute;
   left: 0;
   right: 0;
-  top: 50px; /*no*/
-  bottom: 50px; /*no*/
+  top: 50px;
+  bottom: 50px;
   background-color: #eee;
   // overflow-y: scroll;
   // -webkit-overflow-scrolling: touch;

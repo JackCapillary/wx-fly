@@ -50,17 +50,17 @@
 </template>
 
 <script>
-import { mapGetters, mapActions } from "vuex";
+import { mapGetters, mapActions } from 'vuex';
 
 export default {
   computed: {
     ...mapGetters({
-      loginState: "loginState"
-    })
+      loginState: 'loginState',
+    }),
   },
   data() {
     return {
-      popupVisible: false
+      popupVisible: false,
     };
   },
   methods: {
@@ -73,34 +73,34 @@ export default {
       if (this.loginState === 0) {
         this.popupVisible = false;
         this.$store.dispatch({
-          type: "changeLoginModal",
-          param: true
+          type: 'changeLoginModal',
+          param: true,
         });
-        this.$router.push({ name: "Login_Register" });
+        this.$router.push({ name: 'Login_Register' });
       } else {
         if (name === 'bet') {
           this.$store.dispatch({
-            type: "showHintMessage",
-            param: "开发设计中"
+            type: 'showHintMessage',
+            param: '开发设计中',
           });
           return;
         }
-        this.$router.push({ name: name });
+        this.$router.push({ name });
       }
     },
     goBack() {
       this.popupVisible = false;
       this.$store.dispatch({
-        type: "commitLoginOut"
+        type: 'commitLoginOut',
       });
     },
     goIn() {
       this.popupVisible = false;
       this.$store.dispatch({
-        type: "changeLoginModal",
-        param: true
+        type: 'changeLoginModal',
+        param: true,
       });
-      this.$router.push({ name: "Login_Register" });
+      this.$router.push({ name: 'Login_Register' });
     },
     showMenu() {
       this.popupVisible = !this.popupVisible;
@@ -109,9 +109,9 @@ export default {
       this.$router.push(path);
     },
     jumpToBet(url) {
-      this.$router.push({ path: `${url}`, query: { fcType: "" } });
-    }
-  }
+      this.$router.push({ path: `${url}`, query: { fcType: '' } });
+    },
+  },
 };
 </script>
 
@@ -131,9 +131,9 @@ export default {
   display: -ms-flexbox; /* 混合版本语法: IE 10 */
   display: -webkit-flex; /* 新版本语法: Chrome 21+ */
   display: flex;
-  height: 50px; /*no*/
+  height: 50px;
   width: 100%;
-  line-height: 50px; /*no*/
+  line-height: 50px;
   background-color: #303538;
   color: #fff;
   -webkit-box-align: center;
@@ -157,8 +157,8 @@ export default {
     text-align: left;
     padding-left: 0.2rem;
     img {
-      width: 40px;
-      height: 50px; /*no*/
+      width: 50px;
+      height: 50px;
     }
     span {
       margin-left: 10px;
