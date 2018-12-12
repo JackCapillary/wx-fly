@@ -79,7 +79,7 @@ export default {
   right: 0;
   bottom: 0;
   height: 50px;
-  padding-top: 5px;
+  // padding-top: 5px;
   // padding-bottom: 5px;
   border-top: 1px solid #ddd;
   background-color: #fff;
@@ -93,6 +93,7 @@ export default {
   -moz-flex-direction: row;
   -webkit-flex-direction: row;
   flex-direction: row;
+  align-items: center;
   .item {
     flex: 1;
     height: 43px;

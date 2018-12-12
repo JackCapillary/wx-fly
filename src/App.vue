@@ -97,6 +97,6 @@ export default {
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
   text-align: center;
-  margin-top: 50px; /*no*/
+  margin-top: 50px;
 }
 </style>

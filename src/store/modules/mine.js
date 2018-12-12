@@ -59,6 +59,7 @@ const actions = {
     http.post('gzh/login', param).then((response) => {
       if (response.returnCode === 1) {
         commit('USERS_INFO', response.data);
+        delete response.data.passWord;
         localStorage.setItem('USERS_INFO', JSON.stringify(response.data));
         commit(SET_LOGIN_STATUS, 1);
         commit(HIDE_APP_LOADING);

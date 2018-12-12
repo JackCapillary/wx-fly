@@ -125,7 +125,15 @@ export default {
   },
   methods: {
     toNotify() {
-      this.$router.push({ name: 'news' });
+      if (!localStorage.getItem("USERS_INFO")) {
+        this.$store.dispatch({
+          type: "changeLoginModal",
+          param: true
+        });
+        this.$router.push({ name: "Login_Register" });
+      } else {
+        this.$router.push({ name: 'news' });
+      }
     },
     goChildren() {
       if (!localStorage.getItem('USERS_INFO')) {

@@ -157,8 +157,8 @@ export default {
     text-align: left;
     padding-left: 0.2rem;
     img {
-      width: 50px;
-      height: 50px;
+      width: 40px;
+      height: 40px;
     }
     span {
       margin-left: 10px;
