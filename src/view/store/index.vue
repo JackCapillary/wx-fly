@@ -10,14 +10,14 @@
     <scroller>
       <ul style="padding:10px">
         <li class="li">
-          <img style="width: 100%;height: 200px;" src="http://tantanwin.com/serverAssets/store1.jpg" alt="图片">
+          <img class="storeImg" src="http://tantanwin.com/serverAssets/store1.jpg" alt="图片">
           <h4 class="title">企业网站一套搭建服务</h4>
           <span class="detail">服务器，域名，网站编辑一套</span>
           <b>￥据需求估价</b>
           <star-rating :rating="4.5" :increment="0.5" :read-only="true" :glow="10" :rounded-corners="true" :star-points="[23,2, 14,17, 0,19, 10,34, 7,50, 23,43, 38,50, 36,34, 46,19, 31,17]"></star-rating>
         </li>
         <li class="li">
-          <img style="width: 100%;height: 200px;" src="http://tantanwin.com/serverAssets/store2.jpg" alt="图片">
+          <img class="storeImg" src="http://tantanwin.com/serverAssets/store2.jpg" alt="图片">
           <h4 class="title">UI设计服务</h4>
           <span class="detail">图片设计，APP设计，网站设计服务</span>
           <b>￥据需求估价</b>
@@ -89,8 +89,12 @@ export default {
     flex-direction: column;
     background-color:#fff;
     align-items: center;
+    .storeImg{
+      width: 100%;
+      height: 150px;
+    }
     .title{
-      font-size: 15px;
+      font-size: 18px;
     }
     b{
       font-size: 15px;
