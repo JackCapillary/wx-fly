@@ -55,7 +55,7 @@
           alt="看图公仔"
         >
       </div>
-      <div style="margin: 15px 0;">
+      <div>
         <video
           width="100%"
           height="200px"
@@ -125,12 +125,12 @@ export default {
   },
   methods: {
     toNotify() {
-      if (!localStorage.getItem("USERS_INFO")) {
+      if (!localStorage.getItem('USERS_INFO')) {
         this.$store.dispatch({
-          type: "changeLoginModal",
-          param: true
+          type: 'changeLoginModal',
+          param: true,
         });
-        this.$router.push({ name: "Login_Register" });
+        this.$router.push({ name: 'Login_Register' });
       } else {
         this.$router.push({ name: 'news' });
       }
@@ -160,14 +160,14 @@ export default {
   overflow-x: hidden;
   .seeMovie {
     img {
-      width: 70px;
-      height: 70px;
+      width: 50px;
+      height: 50px;
     }
   }
   .clickVideo {
     color: #9e9e9e;
     padding: 30px 0;
-    height: 160px;
+    height: 200px;
     text-align: center;
     margin: 0 auto;
     font-size: 14px;
